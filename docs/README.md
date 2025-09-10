@@ -45,12 +45,12 @@
 ### 我要构建 RawSpeed
 1. 查看 [快速开始](../CROSS_COMPILE.md#快速开始) 部分
 2. 根据您的平台安装依赖
-3. 使用统一构建脚本：`./scripts/build-cross-platform.sh all`
+3. 使用统一构建脚本：`./scripts/build-unified.sh all`
 
 ### 我使用 Linux
 1. 查看 [Linux 支持指南](LINUX_SUPPORT.md)
 2. 安装必要的依赖
-3. 运行：`./scripts/build-cross-platform.sh linux`
+3. 运行：`./scripts/build-unified.sh linux-x64`
 
 ### 我遇到问题
 1. 查看 [故障排除](../CROSS_COMPILE.md#故障排除) 部分

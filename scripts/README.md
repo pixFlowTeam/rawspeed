@@ -1,6 +1,6 @@
 # RawSpeed 构建脚本
 
-本目录包含用于构建 RawSpeed 库的各种脚本，支持跨平台编译和独立发布。
+本目录包含用于构建 RawSpeed 库的脚本，支持跨平台编译和独立发布。
 
 ## 脚本概览
 
@@ -8,177 +8,148 @@
 
 | 脚本 | 用途 | 推荐度 |
 |------|------|--------|
-| `build-cross-platform.sh` | **统一跨平台构建脚本** | ⭐⭐⭐⭐⭐ |
-| `build.sh` | 单个平台构建脚本 | ⭐⭐⭐⭐ |
-| `build-release.sh` | 发布构建脚本 | ⭐⭐⭐ |
-| `build-config.sh` | 构建配置管理 | ⭐⭐ |
+| `build-unified.sh` | **统一跨平台构建脚本** | ⭐⭐⭐⭐⭐ |
 
-### 📋 详细说明
+## 详细说明
 
-#### 1. `build-cross-platform.sh` - 统一构建脚本（推荐）
+### `build-unified.sh` - 统一构建脚本（推荐）
 
 **最简单的使用方式**，提供统一的接口来构建所有平台：
 
 ```bash
 # 构建所有平台
-./scripts/build-cross-platform.sh all
+./scripts/build-unified.sh all
 
 # 构建特定平台
-./scripts/build-cross-platform.sh windows
-./scripts/build-cross-platform.sh macos
-./scripts/build-cross-platform.sh macos-arm64
-./scripts/build-cross-platform.sh macos-x64
-./scripts/build-cross-platform.sh linux
+./scripts/build-unified.sh windows-x64
+./scripts/build-unified.sh macos-arm64
+./scripts/build-unified.sh macos-x64
+./scripts/build-unified.sh linux-x64
 
-# 清理和状态
-./scripts/build-cross-platform.sh clean
-./scripts/build-cross-platform.sh status
+# 清理构建
+./scripts/build-unified.sh all --clean
 
 # 选项
-./scripts/build-cross-platform.sh all --jobs 8 --verbose
-./scripts/build-cross-platform.sh windows --debug
+./scripts/build-unified.sh all --jobs 8 --verbose
+./scripts/build-unified.sh windows-x64 --debug
 ```
 
 **特点：**
 - ✅ 统一的命令接口
 - ✅ 支持所有平台
-- ✅ 内置状态检查
 - ✅ 彩色输出和进度显示
 - ✅ 错误处理和回退
+- ✅ 与 LibRaw 构建脚本风格一致
 
-#### 2. `build.sh` - 单个平台构建脚本
+## 使用示例
 
-**精确控制**单个平台的构建过程：
-
-```bash
-# 构建特定平台
-./scripts/build.sh windows-x64
-./scripts/build.sh macos-arm64
-./scripts/build.sh macos-x64
-./scripts/build.sh linux-x64
-
-# 选项
-./scripts/build.sh windows-x64 --clean --jobs 8 --verbose
-./scripts/build.sh macos-arm64 --debug
-```
-
-**特点：**
-- ✅ 精确的平台控制
-- ✅ 详细的构建信息
-- ✅ 支持清理和调试选项
-- ✅ 自动依赖检查
-
-#### 3. `build-release.sh` - 发布构建脚本
-
-**批量构建**多个平台并创建发布包：
+### 基本用法
 
 ```bash
+# 查看帮助
+./scripts/build-unified.sh --help
+
 # 构建所有平台
-./scripts/build-release.sh --all
+./scripts/build-unified.sh all
 
 # 构建特定平台
-./scripts/build-release.sh --platforms windows-x64,macos-arm64
-
-# 创建发布包
-./scripts/build-release.sh --all --package
-
-# 清理和重新构建
-./scripts/build-release.sh --clean --all
+./scripts/build-unified.sh macos-arm64
+./scripts/build-unified.sh windows-x64 --clean
+./scripts/build-unified.sh linux-x64 --debug --verbose
 ```
 
-**特点：**
-- ✅ 批量构建多个平台
-- ✅ 自动创建发布包
-- ✅ 支持并行构建
-- ✅ 发布目录管理
-
-#### 4. `build-config.sh` - 构建配置管理
-
-**管理**不同的构建配置和状态：
+### 高级选项
 
 ```bash
-# 查看构建状态
-./scripts/build-config.sh status
+# 使用更多并行任务
+./scripts/build-unified.sh all --jobs 8
 
-# 查看特定平台信息
-./scripts/build-config.sh info macos-arm64
+# 详细输出
+./scripts/build-unified.sh macos-arm64 --verbose
 
-# 清理构建目录
-./scripts/build-config.sh clean
+# 清理后构建
+./scripts/build-unified.sh all --clean
 
-# 列出所有构建目录
-./scripts/build-config.sh list
+# 调试构建
+./scripts/build-unified.sh linux-x64 --debug
 ```
 
-**特点：**
-- ✅ 构建状态监控
-- ✅ 配置管理
-- ✅ 目录清理
-- ✅ 信息查询
+## 支持的平台
 
-## 🎯 使用建议
+- **windows-x64**: Windows 64位 (MinGW-w64)
+- **macos-arm64**: macOS Apple Silicon
+- **macos-x64**: macOS Intel
+- **linux-x64**: Linux 64位
+- **all**: 所有支持的平台
 
-### 新手用户
-```bash
-# 推荐：使用统一构建脚本
-./scripts/build-cross-platform.sh all
-```
+## 构建选项
 
-### 开发者
-```bash
-# 开发时使用单个平台脚本
-./scripts/build.sh macos-arm64 --debug --verbose
-```
+### 平台选择
+- `windows-x64`: Windows 64位 (MinGW-w64)
+- `macos-arm64`: macOS Apple Silicon
+- `macos-x64`: macOS Intel
+- `linux-x64`: Linux 64位
+- `all`: 所有支持的平台
 
-### 发布管理
-```bash
-# 发布时使用发布构建脚本
-./scripts/build-release.sh --all --package
-```
+### 构建类型
+- `--release`: 发布构建 (默认)
+- `--debug`: 调试构建
+- `--coverage`: 代码覆盖率构建
+- `--sanitize`: 内存安全工具构建
+- `--fuzz`: 模糊测试构建
 
-## 📁 构建目录结构
+### 其他选项
+- `-c, --clean`: 清理构建目录
+- `-j, --jobs N`: 并行编译任务数 (默认: 4)
+- `-v, --verbose`: 详细输出
+- `-h, --help`: 显示帮助信息
 
-所有构建产物都放在 `build/` 目录下：
-
-```
-build/
-├── windows-x64/     # Windows x64 构建
-├── macos-arm64/     # macOS ARM64 构建
-├── macos-x64/       # macOS x64 构建
-└── linux-x64/       # Linux x64 构建
-```
-
-## 🔧 支持的平台
-
-- **Windows x64** (x86_64-w64-mingw32) - 交叉编译
-- **macOS ARM64** (aarch64-apple-darwin) - 交叉编译
-- **macOS x64** (x86_64-apple-darwin) - 原生编译
-- **Linux x64** (native) - 支持 Ubuntu、CentOS、RHEL、Debian、Fedora 等
-
-> 📖 **详细 Linux 支持信息**: 请参考 [Linux 支持指南](../docs/LINUX_SUPPORT.md)
-
-## 📝 注意事项
-
-1. **依赖要求**：确保已安装相应的交叉编译工具链
-2. **权限**：脚本需要执行权限 (`chmod +x`)
-3. **网络**：首次构建需要下载依赖包
-4. **空间**：每个平台构建大约需要 100-200MB 空间
-
-## 🆘 故障排除
+## 故障排除
 
 ### 常见问题
 
-1. **权限错误**：`chmod +x scripts/*.sh`
-2. **工具链缺失**：检查 MinGW-w64 或 Xcode 安装
-3. **网络问题**：确保能访问 GitHub 下载依赖
-4. **空间不足**：清理旧的构建目录
+1. **CMake 版本过低**
+   ```
+   错误: CMake 3.22+ required
+   解决: 升级 CMake 到 3.22 或更高版本
+   ```
 
-### 获取帮助
+2. **编译器不支持 C++20**
+   ```
+   错误: C++20 standard not supported
+   解决: 升级编译器到支持 C++20 的版本
+   ```
+
+3. **交叉编译工具链缺失**
+   ```
+   错误: x86_64-w64-mingw32-gcc not found
+   解决: 安装 MinGW-w64 工具链
+   ```
+
+4. **内存不足**
+   ```
+   错误: 编译过程中内存不足
+   解决: 减少并行任务数: -j 2
+   ```
+
+### 调试构建
 
 ```bash
-# 查看脚本帮助
-./scripts/build-cross-platform.sh help
-./scripts/build.sh --help
-./scripts/build-release.sh --help
-./scripts/build-config.sh help
+# 详细输出
+./scripts/build-unified.sh macos-arm64 --verbose
+
+# 调试构建
+./scripts/build-unified.sh linux-x64 --debug
+
+# 清理后重新构建
+./scripts/build-unified.sh windows-x64 --clean --verbose
 ```
+
+## 贡献
+
+如果您发现构建系统的问题或有改进建议，请：
+
+1. 检查现有的 CMake 模块是否满足需求
+2. 遵循现有的代码风格和命名约定
+3. 确保新功能在所有支持的平台上工作
+4. 更新相关文档

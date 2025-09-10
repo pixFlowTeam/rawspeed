@@ -17,29 +17,25 @@
 
 ```bash
 # 构建所有平台
-./scripts/build-cross-platform.sh all
+./scripts/build-unified.sh all
 
 # 构建特定平台
-./scripts/build-cross-platform.sh windows
-./scripts/build-cross-platform.sh macos
-./scripts/build-cross-platform.sh macos-arm64
-./scripts/build-cross-platform.sh macos-x64
-./scripts/build-cross-platform.sh linux
+./scripts/build-unified.sh windows-x64
+./scripts/build-unified.sh macos-arm64
+./scripts/build-unified.sh macos-x64
+./scripts/build-unified.sh linux-x64
 
 # 清理构建目录
-./scripts/build-cross-platform.sh clean
-
-# 查看构建状态
-./scripts/build-cross-platform.sh status
+./scripts/build-unified.sh all --clean
 
 # 使用更多并行任务
-./scripts/build-cross-platform.sh all --jobs 8
+./scripts/build-unified.sh all --jobs 8
 
 # 详细输出
-./scripts/build-cross-platform.sh windows --verbose
+./scripts/build-unified.sh windows-x64 --verbose
 
 # 调试构建
-./scripts/build-cross-platform.sh macos --debug
+./scripts/build-unified.sh macos-arm64 --debug
 ```
 
 ### 2. 使用发布构建脚本

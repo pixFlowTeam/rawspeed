@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+da4868e99becd0ab9a252343f4c09a62 CMakeFiles/zlib
+349b0567b63cf1857716c37a160a522e CMakeFiles/zlib-complete
+caf7bce8bbc1ccd67dac404d9052cac9 stamp/zlib-build
+7c7796cee99ec737c18e6b440bae5f88 stamp/zlib-configure
+13705a36a9ecedac41d96a43b12cf02f stamp/zlib-download
+7bf7a24ab7913a2458a42631f00a0055 stamp/zlib-install
+8570e0f3d534698f51019f35e044dff8 stamp/zlib-mkdir
+fb62432ff321d3e14f0dd10ebe9116b3 stamp/zlib-patch
+9d5e76e35aac0dd44d5d7845f3488830 stamp/zlib-test
+66223a994a0a6fd76914c35b02bf12f1 stamp/zlib-update

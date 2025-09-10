@@ -1,0 +1,2 @@
+/opt/homebrew/bin/x86_64-w64-mingw32-ar qc ../../../lib/librawspeed_get_number_of_processor_cores.a CMakeFiles/rawspeed_get_number_of_processor_cores.dir/GetNumberOfProcessorCores.cpp.obj
+/opt/homebrew/bin/x86_64-w64-mingw32-ranlib ../../../lib/librawspeed_get_number_of_processor_cores.a

@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+f422d35cd600f62cb90b6fb254cb2a1d data/CMakeFiles/validate-cameras.xml
+9d9f17dba009be98d81437c06b39e729 data/cameras.xml.touch

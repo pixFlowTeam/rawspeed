@@ -1,0 +1,14 @@
+# Target labels
+ llvm-cmake
+# Source files and their labels
+/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/CMakeFiles/llvm-cmake
+/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/CMakeFiles/llvm-cmake.rule
+/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/CMakeFiles/llvm-cmake-complete.rule
+/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-cmake-build.rule
+/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-cmake-configure.rule
+/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-cmake-download.rule
+/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-cmake-install.rule
+/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-cmake-mkdir.rule
+/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-cmake-patch.rule
+/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-cmake-test.rule
+/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-cmake-update.rule

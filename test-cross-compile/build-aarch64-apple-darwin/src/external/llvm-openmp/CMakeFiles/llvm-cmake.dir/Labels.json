@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/CMakeFiles/llvm-cmake"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/CMakeFiles/llvm-cmake.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/CMakeFiles/llvm-cmake-complete.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-cmake-build.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-cmake-configure.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-cmake-download.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-cmake-install.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-cmake-mkdir.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-cmake-patch.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-cmake-test.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-cmake-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"llvm-cmake"
+		],
+		"name" : "llvm-cmake"
+	}
+}

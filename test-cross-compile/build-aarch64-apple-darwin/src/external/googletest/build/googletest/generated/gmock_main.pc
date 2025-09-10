@@ -1,0 +1,10 @@
+libdir=/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/install/lib
+includedir=/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/install/include
+
+Name: gmock_main
+Description: GoogleMock (with main() function)
+Version: 1.13.0
+URL: https://github.com/google/googletest
+Requires: gmock = 1.13.0
+Libs: -L${libdir} -lgmock_main 
+Cflags: -I${includedir} -DGTEST_HAS_PTHREAD=1

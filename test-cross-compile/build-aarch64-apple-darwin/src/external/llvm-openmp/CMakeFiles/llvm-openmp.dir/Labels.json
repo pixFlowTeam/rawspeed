@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/CMakeFiles/llvm-openmp"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/CMakeFiles/llvm-openmp.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/CMakeFiles/llvm-openmp-complete.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-openmp-build.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-openmp-configure.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-openmp-download.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-openmp-install.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-openmp-mkdir.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-openmp-patch.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-openmp-test.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/stamp/llvm-openmp-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"llvm-openmp"
+		],
+		"name" : "llvm-openmp"
+	}
+}

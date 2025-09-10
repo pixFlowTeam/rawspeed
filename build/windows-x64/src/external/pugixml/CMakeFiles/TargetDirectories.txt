@@ -1,0 +1,3 @@
+/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/external/pugixml/CMakeFiles/pugixml.dir
+/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/external/pugixml/CMakeFiles/edit_cache.dir
+/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/external/pugixml/CMakeFiles/rebuild_cache.dir

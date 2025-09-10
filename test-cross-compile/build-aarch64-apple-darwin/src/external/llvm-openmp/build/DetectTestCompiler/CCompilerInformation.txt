@@ -1,0 +1,1 @@
+/usr/bin/clang;AppleClang;17.0.0.17000013;-fopenmp ;1;1;

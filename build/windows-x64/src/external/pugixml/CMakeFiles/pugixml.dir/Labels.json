@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/src/external/pugixml/CMakeFiles/pugixml"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/src/external/pugixml/CMakeFiles/pugixml.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/src/external/pugixml/CMakeFiles/pugixml-complete.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/src/external/pugixml/stamp/pugixml-build.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/src/external/pugixml/stamp/pugixml-configure.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/src/external/pugixml/stamp/pugixml-download.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/src/external/pugixml/stamp/pugixml-install.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/src/external/pugixml/stamp/pugixml-mkdir.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/src/external/pugixml/stamp/pugixml-patch.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/src/external/pugixml/stamp/pugixml-test.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/src/external/pugixml/stamp/pugixml-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pugixml"
+		],
+		"name" : "pugixml"
+	}
+}

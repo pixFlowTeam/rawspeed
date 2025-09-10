@@ -1,0 +1,2 @@
+/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/build/DetectTestCompiler/CMakeFiles/edit_cache.dir
+/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/build/DetectTestCompiler/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,12 @@
+prefix=/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/install
+exec_prefix=${prefix}
+libdir=/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/install/lib
+includedir=/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/install/include
+
+Name: benchmark
+Description: Google microbenchmark framework
+Version: 1.9.3
+
+Libs: -L${libdir} -lbenchmark
+Libs.private: -lpthread 
+Cflags: -I${includedir}

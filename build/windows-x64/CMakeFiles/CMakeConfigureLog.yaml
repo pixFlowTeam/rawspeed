@@ -1,0 +1,1564 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      The target system is: Windows -  - x86_64
+      The host system is: Darwin - 24.6.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/homebrew/bin/x86_64-w64-mingw32-g++ 
+      Build flags: -static-libgcc;-static-libstdc++
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/3.30.6/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:18 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-8mdxYX"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-8mdxYX"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "-static"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-8mdxYX'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5a349/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5a349.dir/build.make CMakeFiles/cmTC_5a349.dir/build
+        Building CXX object CMakeFiles/cmTC_5a349.dir/CMakeCXXCompilerABI.cpp.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++    -v -o CMakeFiles/cmTC_5a349.dir/CMakeCXXCompilerABI.cpp.obj -c /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/x86_64-w64-mingw32-g++
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --target=x86_64-w64-mingw32 --with-sysroot=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 --prefix=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --enable-languages=c,c++,objc,obj-c++,fortran --with-ld=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-ld --with-as=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-as --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-system-zlib --with-zstd --disable-multilib --disable-nls --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-D' 'NOMINMAX' '-D' 'WIN32_LEAN_AND_MEAN' '-D' '_WIN32_WINNT=0x0601' '-static-libgcc' '-v' '-o' 'CMakeFiles/cmTC_5a349.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5a349.dir/'
+         /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus -quiet -v -D_REENTRANT -D NOMINMAX -D WIN32_LEAN_AND_MEAN -D _WIN32_WINNT=0x0601 /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5a349.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /var/folders/6y/78gsp8sd1z5_8vk02ytxzd000000gn/T//ccmMtPFJ.s
+        GNU C++17 (GCC) version 15.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version Apple LLVM 17.0.0 (clang-1700.0.13.3), GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/usr/local/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include/c++/15.2.0
+         /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32
+         /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include/c++/15.2.0/backward
+         /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include
+         /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
+         /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: b0355bd7886d4942040459e895b585b5
+        COLLECT_GCC_OPTIONS='-D' 'NOMINMAX' '-D' 'WIN32_LEAN_AND_MEAN' '-D' '_WIN32_WINNT=0x0601' '-static-libgcc' '-v' '-o' 'CMakeFiles/cmTC_5a349.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5a349.dir/'
+         /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-as -v -o CMakeFiles/cmTC_5a349.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/6y/78gsp8sd1z5_8vk02ytxzd000000gn/T//ccmMtPFJ.s
+        GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45
+        COMPILER_PATH=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/
+        COLLECT_GCC_OPTIONS='-D' 'NOMINMAX' '-D' 'WIN32_LEAN_AND_MEAN' '-D' '_WIN32_WINNT=0x0601' '-static-libgcc' '-v' '-o' 'CMakeFiles/cmTC_5a349.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5a349.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_5a349.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a349.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_5a349.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_5a349.dir/objects.a @CMakeFiles/cmTC_5a349.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++  -static -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_5a349.dir/objects.a -Wl,--no-whole-archive -o cmTC_5a349.exe -Wl,--out-implib,lib/libcmTC_5a349.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/x86_64-w64-mingw32-g++
+        COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --target=x86_64-w64-mingw32 --with-sysroot=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 --prefix=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --enable-languages=c,c++,objc,obj-c++,fortran --with-ld=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-ld --with-as=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-as --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-system-zlib --with-zstd --disable-multilib --disable-nls --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (GCC) 
+        COMPILER_PATH=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/
+        COLLECT_GCC_OPTIONS='-static-libgcc' '-static' '-v' '-o' 'cmTC_5a349.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5a349.'
+         /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2 -plugin /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.so -plugin-opt=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/6y/78gsp8sd1z5_8vk02ytxzd000000gn/T//ccJS6qyX.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 -m i386pep -Bstatic -o cmTC_5a349.exe /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0 -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib -v --whole-archive CMakeFiles/cmTC_5a349.dir/objects.a --no-whole-archive --out-implib lib/libcmTC_5a349.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        collect2 version 15.2.0
+        /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-ld -plugin /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.so -plugin-opt=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/6y/78gsp8sd1z5_8vk02ytxzd000000gn/T//ccJS6qyX.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 -m i386pep -Bstatic -o cmTC_5a349.exe /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0 -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib -v --whole-archive CMakeFiles/cmTC_5a349.dir/objects.a --no-whole-archive --out-implib lib/libcmTC_5a349.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.45
+        COLLECT_GCC_OPTIONS='-static-libgcc' '-static' '-v' '-o' 'cmTC_5a349.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5a349.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include/c++/15.2.0]
+          add: [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32]
+          add: [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include/c++/15.2.0/backward]
+          add: [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+          add: [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+          add: [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include/c++/15.2.0] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/include/c++/15.2.0]
+        collapse include dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32]
+        collapse include dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include/c++/15.2.0/backward] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/include/c++/15.2.0/backward]
+        collapse include dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        collapse include dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        collapse include dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/include]
+        implicit include dirs: [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/include/c++/15.2.0;/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32;/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/include/c++/15.2.0/backward;/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include;/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed;/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-8mdxYX']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5a349/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5a349.dir/build.make CMakeFiles/cmTC_5a349.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_5a349.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++    -v -o CMakeFiles/cmTC_5a349.dir/CMakeCXXCompilerABI.cpp.obj -c /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/homebrew/bin/x86_64-w64-mingw32-g++]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../configure --target=x86_64-w64-mingw32 --with-sysroot=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 --prefix=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --enable-languages=c,c++,objc,obj-c++,fortran --with-ld=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-ld --with-as=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-as --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-system-zlib --with-zstd --disable-multilib --disable-nls --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'NOMINMAX' '-D' 'WIN32_LEAN_AND_MEAN' '-D' '_WIN32_WINNT=0x0601' '-static-libgcc' '-v' '-o' 'CMakeFiles/cmTC_5a349.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5a349.dir/']
+        ignore line: [ /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus -quiet -v -D_REENTRANT -D NOMINMAX -D WIN32_LEAN_AND_MEAN -D _WIN32_WINNT=0x0601 /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5a349.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /var/folders/6y/78gsp8sd1z5_8vk02ytxzd000000gn/T//ccmMtPFJ.s]
+        ignore line: [GNU C++17 (GCC) version 15.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version Apple LLVM 17.0.0 (clang-1700.0.13.3)  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include/c++/15.2.0]
+        ignore line: [ /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include/c++/15.2.0/x86_64-w64-mingw32]
+        ignore line: [ /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include/c++/15.2.0/backward]
+        ignore line: [ /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        ignore line: [ /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        ignore line: [ /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: b0355bd7886d4942040459e895b585b5]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'NOMINMAX' '-D' 'WIN32_LEAN_AND_MEAN' '-D' '_WIN32_WINNT=0x0601' '-static-libgcc' '-v' '-o' 'CMakeFiles/cmTC_5a349.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5a349.dir/']
+        ignore line: [ /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-as -v -o CMakeFiles/cmTC_5a349.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/6y/78gsp8sd1z5_8vk02ytxzd000000gn/T//ccmMtPFJ.s]
+        ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45]
+        ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'NOMINMAX' '-D' 'WIN32_LEAN_AND_MEAN' '-D' '_WIN32_WINNT=0x0601' '-static-libgcc' '-v' '-o' 'CMakeFiles/cmTC_5a349.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5a349.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_5a349.exe]
+        ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a349.dir/link.txt --verbose=1]
+        ignore line: [/Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_5a349.dir/objects.a]
+        ignore line: [/opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_5a349.dir/objects.a @CMakeFiles/cmTC_5a349.dir/objects1.rsp]
+        ignore line: [/opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++  -static -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_5a349.dir/objects.a -Wl --no-whole-archive -o cmTC_5a349.exe -Wl --out-implib lib/libcmTC_5a349.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/homebrew/bin/x86_64-w64-mingw32-g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../configure --target=x86_64-w64-mingw32 --with-sysroot=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 --prefix=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --enable-languages=c,c++,objc,obj-c++,fortran --with-ld=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-ld --with-as=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-as --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-system-zlib --with-zstd --disable-multilib --disable-nls --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-static-libgcc' '-static' '-v' '-o' 'cmTC_5a349.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5a349.']
+        link line: [ /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2 -plugin /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.so -plugin-opt=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/6y/78gsp8sd1z5_8vk02ytxzd000000gn/T//ccJS6qyX.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 -m i386pep -Bstatic -o cmTC_5a349.exe /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0 -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib -v --whole-archive CMakeFiles/cmTC_5a349.dir/objects.a --no-whole-archive --out-implib lib/libcmTC_5a349.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+          arg [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/6y/78gsp8sd1z5_8vk02ytxzd000000gn/T//ccJS6qyX.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bstatic] ==> search static
+          arg [-o] ==> ignore
+          arg [cmTC_5a349.exe] ==> ignore
+          arg [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+          arg [-L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0]
+          arg [-L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib] ==> dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib]
+          arg [-L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib] ==> dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles/cmTC_5a349.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [lib/libcmTC_5a349.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [SEARCH_STATIC:stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-ld -plugin /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.so -plugin-opt=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/6y/78gsp8sd1z5_8vk02ytxzd000000gn/T//ccJS6qyX.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 -m i386pep -Bstatic -o cmTC_5a349.exe /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0 -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib -v --whole-archive CMakeFiles/cmTC_5a349.dir/objects.a --no-whole-archive --out-implib lib/libcmTC_5a349.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [GNU ld (GNU Binutils) 2.45]
+        ignore line: [COLLECT_GCC_OPTIONS='-static-libgcc' '-static' '-v' '-o' 'cmTC_5a349.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5a349.']
+        ignore line: []
+        ignore line: []
+        search lib [SEARCH_STATIC:stdc++] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/lib/libstdc++.a]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse library dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0]
+        collapse library dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/lib]
+        collapse library dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib]
+        collapse library dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/lib]
+        collapse library dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib]
+        implicit libs: [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/lib/libstdc++.a;mingw32;gcc;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;mingwex;kernel32]
+        implicit objs: [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/lib/crt2.o;/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o;/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        implicit dirs: [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0;/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/lib;/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/compiler-versions.cmake:76 (try_compile)"
+      - "CMakeLists.txt:186 (include)"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/libstdcxx_version_check/CMakeFiles/CMakeTmp"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/libstdcxx_version_check/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-static"
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "RAWSPEED_LIBSTDCXX_MIN"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/libstdcxx_version_check/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_01b35/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_01b35.dir/build.make CMakeFiles/cmTC_01b35.dir/build
+        Building CXX object CMakeFiles/cmTC_01b35.dir/libstdcxx_version_check.cpp.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++  -o CMakeFiles/cmTC_01b35.dir/libstdcxx_version_check.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/libstdcxx_version_check.cpp
+        Linking CXX executable cmTC_01b35.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01b35.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_01b35.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_01b35.dir/objects.a @CMakeFiles/cmTC_01b35.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++  -static  -Wl,--whole-archive CMakeFiles/cmTC_01b35.dir/objects.a -Wl,--no-whole-archive -o cmTC_01b35.exe -Wl,--out-implib,lib/libcmTC_01b35.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_01b35.dir/linkLibs.rsp
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/compiler-versions.cmake:104 (try_compile)"
+      - "CMakeLists.txt:186 (include)"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/libcpp_version_check/CMakeFiles/CMakeTmp"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/libcpp_version_check/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-static"
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "RAWSPEED_LIBCXX_MIN"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/libcpp_version_check/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4f058/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4f058.dir/build.make CMakeFiles/cmTC_4f058.dir/build
+        Building CXX object CMakeFiles/cmTC_4f058.dir/libcpp_version_check.cpp.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++  -o CMakeFiles/cmTC_4f058.dir/libcpp_version_check.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/libcpp_version_check.cpp
+        Linking CXX executable cmTC_4f058.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f058.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_4f058.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_4f058.dir/objects.a @CMakeFiles/cmTC_4f058.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++  -static  -Wl,--whole-archive CMakeFiles/cmTC_4f058.dir/objects.a -Wl,--no-whole-archive -o cmTC_4f058.exe -Wl,--out-implib,lib/libcmTC_4f058.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_4f058.dir/linkLibs.rsp
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Modules/CpuMarch.cmake:29 (CHECK_CXX_COMPILER_FLAG)"
+      - "cmake/compiler-flags.cmake:1 (include)"
+      - "CMakeLists.txt:187 (include)"
+    checks:
+      - "Performing Test RAWSPEED_MTUNEGENERIC"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-igW4uK"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-igW4uK"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-static"
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "RAWSPEED_MTUNEGENERIC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-igW4uK'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_32f9b/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_32f9b.dir/build.make CMakeFiles/cmTC_32f9b.dir/build
+        Building CXX object CMakeFiles/cmTC_32f9b.dir/src.cxx.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DRAWSPEED_MTUNEGENERIC -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++    -mtune=generic -o CMakeFiles/cmTC_32f9b.dir/src.cxx.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-igW4uK/src.cxx
+        Linking CXX executable cmTC_32f9b.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32f9b.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_32f9b.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_32f9b.dir/objects.a @CMakeFiles/cmTC_32f9b.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++  -static  -Wl,--whole-archive CMakeFiles/cmTC_32f9b.dir/objects.a -Wl,--no-whole-archive -o cmTC_32f9b.exe -Wl,--out-implib,lib/libcmTC_32f9b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_32f9b.dir/linkLibs.rsp
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCompilerFlag.cmake:52 (cmake_check_compiler_flag)"
+      - "cmake/debug-info.cmake:9 (check_compiler_flag)"
+      - "cmake/compiler-flags.cmake:12 (include)"
+      - "CMakeLists.txt:187 (include)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_DEBUG_INFO_COMPRESSION"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-tGAIN6"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-tGAIN6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static"
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_DEBUG_INFO_COMPRESSION"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-tGAIN6'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_52d38/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_52d38.dir/build.make CMakeFiles/cmTC_52d38.dir/build
+        Building CXX object CMakeFiles/cmTC_52d38.dir/src.cxx.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DCOMPILER_SUPPORTS_DEBUG_INFO_COMPRESSION -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++  -std=c++20   -gz -o CMakeFiles/cmTC_52d38.dir/src.cxx.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-tGAIN6/src.cxx
+        x86_64-w64-mingw32-g++: error: -gz is not supported in this configuration
+        make[1]: *** [CMakeFiles/cmTC_52d38.dir/src.cxx.obj] Error 1
+        make: *** [cmTC_52d38/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckLinkerFlag.cmake:37 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckLinkerFlag.cmake:44 (cmake_check_linker_flag)"
+      - "cmake/debug-info.cmake:10 (check_linker_flag)"
+      - "cmake/compiler-flags.cmake:12 (include)"
+      - "CMakeLists.txt:187 (include)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_DEBUG_INFO_COMPRESSION_LINK"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-XItax6"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-XItax6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static"
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_DEBUG_INFO_COMPRESSION_LINK"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-XItax6'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9d0ed/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_9d0ed.dir/build.make CMakeFiles/cmTC_9d0ed.dir/build
+        Building CXX object CMakeFiles/cmTC_9d0ed.dir/src.cxx.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DCOMPILER_SUPPORTS_DEBUG_INFO_COMPRESSION_LINK -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++  -std=c++20 -o CMakeFiles/cmTC_9d0ed.dir/src.cxx.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-XItax6/src.cxx
+        Linking CXX executable cmTC_9d0ed.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d0ed.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_9d0ed.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_9d0ed.dir/objects.a @CMakeFiles/cmTC_9d0ed.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++  -static  -gz -Wl,--whole-archive CMakeFiles/cmTC_9d0ed.dir/objects.a -Wl,--no-whole-archive -o cmTC_9d0ed.exe -Wl,--out-implib,lib/libcmTC_9d0ed.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_9d0ed.dir/linkLibs.rsp
+        x86_64-w64-mingw32-g++: error: -gz is not supported in this configuration
+        make[1]: *** [cmTC_9d0ed.exe] Error 1
+        make: *** [cmTC_9d0ed/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Modules/CheckCXXCompilerFlagAndEnableIt.cmake:17 (CHECK_CXX_COMPILER_FLAG)"
+      - "cmake/compiler-warnings-gcc.cmake:55 (CHECK_CXX_COMPILER_FLAG_AND_ENABLE_IT)"
+      - "cmake/compiler-warnings.cmake:4 (include)"
+      - "CMakeLists.txt:193 (include)"
+    checks:
+      - "Performing Test RAWSPEED_HAVE_CXX_FLAG_WALL"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-VdsGmI"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-VdsGmI"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "RAWSPEED_HAVE_CXX_FLAG_WALL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-VdsGmI'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a75ca/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a75ca.dir/build.make CMakeFiles/cmTC_a75ca.dir/build
+        Building CXX object CMakeFiles/cmTC_a75ca.dir/src.cxx.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DRAWSPEED_HAVE_CXX_FLAG_WALL -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -static-libgcc -static-libstdc++ -std=c++20   -Wall -o CMakeFiles/cmTC_a75ca.dir/src.cxx.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-VdsGmI/src.cxx
+        Linking CXX executable cmTC_a75ca.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a75ca.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_a75ca.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_a75ca.dir/objects.a @CMakeFiles/cmTC_a75ca.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -static-libgcc -static-libstdc++ -static   -Wl,--whole-archive CMakeFiles/cmTC_a75ca.dir/objects.a -Wl,--no-whole-archive -o cmTC_a75ca.exe -Wl,--out-implib,lib/libcmTC_a75ca.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_a75ca.dir/linkLibs.rsp
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Modules/CheckCXXCompilerFlagAndEnableIt.cmake:17 (CHECK_CXX_COMPILER_FLAG)"
+      - "cmake/compiler-warnings-gcc.cmake:55 (CHECK_CXX_COMPILER_FLAG_AND_ENABLE_IT)"
+      - "cmake/compiler-warnings.cmake:4 (include)"
+      - "CMakeLists.txt:193 (include)"
+    checks:
+      - "Performing Test RAWSPEED_HAVE_CXX_FLAG_WEXTRA"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-K9ngo8"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-K9ngo8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++ -Wall"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "RAWSPEED_HAVE_CXX_FLAG_WEXTRA"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-K9ngo8'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b0d88/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b0d88.dir/build.make CMakeFiles/cmTC_b0d88.dir/build
+        Building CXX object CMakeFiles/cmTC_b0d88.dir/src.cxx.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DRAWSPEED_HAVE_CXX_FLAG_WEXTRA -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -Wall -static-libgcc -static-libstdc++ -Wall -std=c++20   -Wextra -o CMakeFiles/cmTC_b0d88.dir/src.cxx.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-K9ngo8/src.cxx
+        Linking CXX executable cmTC_b0d88.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0d88.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_b0d88.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_b0d88.dir/objects.a @CMakeFiles/cmTC_b0d88.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -Wall -static-libgcc -static-libstdc++ -Wall -static   -Wl,--whole-archive CMakeFiles/cmTC_b0d88.dir/objects.a -Wl,--no-whole-archive -o cmTC_b0d88.exe -Wl,--out-implib,lib/libcmTC_b0d88.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_b0d88.dir/linkLibs.rsp
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Modules/CheckCXXCompilerFlagAndEnableIt.cmake:17 (CHECK_CXX_COMPILER_FLAG)"
+      - "cmake/compiler-warnings-gcc.cmake:55 (CHECK_CXX_COMPILER_FLAG_AND_ENABLE_IT)"
+      - "cmake/compiler-warnings.cmake:4 (include)"
+      - "CMakeLists.txt:193 (include)"
+    checks:
+      - "Performing Test RAWSPEED_HAVE_CXX_FLAG_WCAST_QUAL"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-nwTVAO"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-nwTVAO"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++ -Wall -Wextra"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "RAWSPEED_HAVE_CXX_FLAG_WCAST_QUAL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-nwTVAO'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_709d0/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_709d0.dir/build.make CMakeFiles/cmTC_709d0.dir/build
+        Building CXX object CMakeFiles/cmTC_709d0.dir/src.cxx.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DRAWSPEED_HAVE_CXX_FLAG_WCAST_QUAL -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -Wall -Wextra -static-libgcc -static-libstdc++ -Wall -Wextra -std=c++20   -Wcast-qual -o CMakeFiles/cmTC_709d0.dir/src.cxx.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-nwTVAO/src.cxx
+        Linking CXX executable cmTC_709d0.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_709d0.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_709d0.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_709d0.dir/objects.a @CMakeFiles/cmTC_709d0.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -Wall -Wextra -static-libgcc -static-libstdc++ -Wall -Wextra -static   -Wl,--whole-archive CMakeFiles/cmTC_709d0.dir/objects.a -Wl,--no-whole-archive -o cmTC_709d0.exe -Wl,--out-implib,lib/libcmTC_709d0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_709d0.dir/linkLibs.rsp
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Modules/CheckCXXCompilerFlagAndEnableIt.cmake:17 (CHECK_CXX_COMPILER_FLAG)"
+      - "cmake/compiler-warnings-gcc.cmake:55 (CHECK_CXX_COMPILER_FLAG_AND_ENABLE_IT)"
+      - "cmake/compiler-warnings.cmake:4 (include)"
+      - "CMakeLists.txt:193 (include)"
+    checks:
+      - "Performing Test RAWSPEED_HAVE_CXX_FLAG_WEXTRA_SEMI"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-LTPYPY"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-LTPYPY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "RAWSPEED_HAVE_CXX_FLAG_WEXTRA_SEMI"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-LTPYPY'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_191ea/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_191ea.dir/build.make CMakeFiles/cmTC_191ea.dir/build
+        Building CXX object CMakeFiles/cmTC_191ea.dir/src.cxx.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DRAWSPEED_HAVE_CXX_FLAG_WEXTRA_SEMI -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -std=c++20   -Wextra-semi -o CMakeFiles/cmTC_191ea.dir/src.cxx.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-LTPYPY/src.cxx
+        Linking CXX executable cmTC_191ea.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_191ea.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_191ea.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_191ea.dir/objects.a @CMakeFiles/cmTC_191ea.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -static   -Wl,--whole-archive CMakeFiles/cmTC_191ea.dir/objects.a -Wl,--no-whole-archive -o cmTC_191ea.exe -Wl,--out-implib,lib/libcmTC_191ea.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_191ea.dir/linkLibs.rsp
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Modules/CheckCXXCompilerFlagAndEnableIt.cmake:17 (CHECK_CXX_COMPILER_FLAG)"
+      - "cmake/compiler-warnings-gcc.cmake:55 (CHECK_CXX_COMPILER_FLAG_AND_ENABLE_IT)"
+      - "cmake/compiler-warnings.cmake:4 (include)"
+      - "CMakeLists.txt:193 (include)"
+    checks:
+      - "Performing Test RAWSPEED_HAVE_CXX_FLAG_WFORMAT_2"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-ZYypb5"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-ZYypb5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "RAWSPEED_HAVE_CXX_FLAG_WFORMAT_2"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-ZYypb5'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9011c/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_9011c.dir/build.make CMakeFiles/cmTC_9011c.dir/build
+        Building CXX object CMakeFiles/cmTC_9011c.dir/src.cxx.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DRAWSPEED_HAVE_CXX_FLAG_WFORMAT_2 -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -std=c++20   -Wformat=2 -o CMakeFiles/cmTC_9011c.dir/src.cxx.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-ZYypb5/src.cxx
+        Linking CXX executable cmTC_9011c.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9011c.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_9011c.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_9011c.dir/objects.a @CMakeFiles/cmTC_9011c.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -static   -Wl,--whole-archive CMakeFiles/cmTC_9011c.dir/objects.a -Wl,--no-whole-archive -o cmTC_9011c.exe -Wl,--out-implib,lib/libcmTC_9011c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_9011c.dir/linkLibs.rsp
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Modules/CheckCXXCompilerFlagAndEnableIt.cmake:17 (CHECK_CXX_COMPILER_FLAG)"
+      - "cmake/compiler-warnings-gcc.cmake:55 (CHECK_CXX_COMPILER_FLAG_AND_ENABLE_IT)"
+      - "cmake/compiler-warnings.cmake:4 (include)"
+      - "CMakeLists.txt:193 (include)"
+    checks:
+      - "Performing Test RAWSPEED_HAVE_CXX_FLAG_WPOINTER_ARITH"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-BH2EpS"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-BH2EpS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "RAWSPEED_HAVE_CXX_FLAG_WPOINTER_ARITH"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-BH2EpS'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_27737/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_27737.dir/build.make CMakeFiles/cmTC_27737.dir/build
+        Building CXX object CMakeFiles/cmTC_27737.dir/src.cxx.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DRAWSPEED_HAVE_CXX_FLAG_WPOINTER_ARITH -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -std=c++20   -Wpointer-arith -o CMakeFiles/cmTC_27737.dir/src.cxx.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-BH2EpS/src.cxx
+        Linking CXX executable cmTC_27737.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27737.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_27737.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_27737.dir/objects.a @CMakeFiles/cmTC_27737.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -static   -Wl,--whole-archive CMakeFiles/cmTC_27737.dir/objects.a -Wl,--no-whole-archive -o cmTC_27737.exe -Wl,--out-implib,lib/libcmTC_27737.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_27737.dir/linkLibs.rsp
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Modules/CheckCXXCompilerFlagAndEnableIt.cmake:17 (CHECK_CXX_COMPILER_FLAG)"
+      - "cmake/compiler-warnings-gcc.cmake:55 (CHECK_CXX_COMPILER_FLAG_AND_ENABLE_IT)"
+      - "cmake/compiler-warnings.cmake:4 (include)"
+      - "CMakeLists.txt:193 (include)"
+    checks:
+      - "Performing Test RAWSPEED_HAVE_CXX_FLAG_WVLA"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-zJjCgj"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-zJjCgj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "RAWSPEED_HAVE_CXX_FLAG_WVLA"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-zJjCgj'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_02eaa/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_02eaa.dir/build.make CMakeFiles/cmTC_02eaa.dir/build
+        Building CXX object CMakeFiles/cmTC_02eaa.dir/src.cxx.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DRAWSPEED_HAVE_CXX_FLAG_WVLA -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -std=c++20   -Wvla -o CMakeFiles/cmTC_02eaa.dir/src.cxx.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-zJjCgj/src.cxx
+        Linking CXX executable cmTC_02eaa.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02eaa.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_02eaa.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_02eaa.dir/objects.a @CMakeFiles/cmTC_02eaa.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -static   -Wl,--whole-archive CMakeFiles/cmTC_02eaa.dir/objects.a -Wl,--no-whole-archive -o cmTC_02eaa.exe -Wl,--out-implib,lib/libcmTC_02eaa.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_02eaa.dir/linkLibs.rsp
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Modules/CheckCXXCompilerFlagAndEnableIt.cmake:17 (CHECK_CXX_COMPILER_FLAG)"
+      - "cmake/compiler-warnings-gcc.cmake:59 (CHECK_CXX_COMPILER_FLAG_AND_ENABLE_IT)"
+      - "cmake/compiler-warnings.cmake:4 (include)"
+      - "CMakeLists.txt:193 (include)"
+    checks:
+      - "Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_UNUSED_PARAMETER"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-vtMlJa"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-vtMlJa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "RAWSPEED_HAVE_CXX_FLAG_WNO_UNUSED_PARAMETER"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-vtMlJa'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_53cd2/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_53cd2.dir/build.make CMakeFiles/cmTC_53cd2.dir/build
+        Building CXX object CMakeFiles/cmTC_53cd2.dir/src.cxx.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DRAWSPEED_HAVE_CXX_FLAG_WNO_UNUSED_PARAMETER -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -std=c++20   -Wno-unused-parameter -o CMakeFiles/cmTC_53cd2.dir/src.cxx.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-vtMlJa/src.cxx
+        Linking CXX executable cmTC_53cd2.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53cd2.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_53cd2.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_53cd2.dir/objects.a @CMakeFiles/cmTC_53cd2.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -static   -Wl,--whole-archive CMakeFiles/cmTC_53cd2.dir/objects.a -Wl,--no-whole-archive -o cmTC_53cd2.exe -Wl,--out-implib,lib/libcmTC_53cd2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_53cd2.dir/linkLibs.rsp
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Modules/CheckCXXCompilerFlagAndEnableIt.cmake:17 (CHECK_CXX_COMPILER_FLAG)"
+      - "cmake/compiler-warnings-gcc.cmake:59 (CHECK_CXX_COMPILER_FLAG_AND_ENABLE_IT)"
+      - "cmake/compiler-warnings.cmake:4 (include)"
+      - "CMakeLists.txt:193 (include)"
+    checks:
+      - "Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_MAYBE_UNINITIALIZED"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-ktYLYd"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-ktYLYd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "RAWSPEED_HAVE_CXX_FLAG_WNO_MAYBE_UNINITIALIZED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-ktYLYd'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7b879/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7b879.dir/build.make CMakeFiles/cmTC_7b879.dir/build
+        Building CXX object CMakeFiles/cmTC_7b879.dir/src.cxx.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DRAWSPEED_HAVE_CXX_FLAG_WNO_MAYBE_UNINITIALIZED -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -std=c++20   -Wno-maybe-uninitialized -o CMakeFiles/cmTC_7b879.dir/src.cxx.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-ktYLYd/src.cxx
+        Linking CXX executable cmTC_7b879.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b879.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_7b879.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_7b879.dir/objects.a @CMakeFiles/cmTC_7b879.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -static   -Wl,--whole-archive CMakeFiles/cmTC_7b879.dir/objects.a -Wl,--no-whole-archive -o cmTC_7b879.exe -Wl,--out-implib,lib/libcmTC_7b879.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_7b879.dir/linkLibs.rsp
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Modules/CheckCXXCompilerFlagAndEnableIt.cmake:17 (CHECK_CXX_COMPILER_FLAG)"
+      - "cmake/compiler-warnings-gcc.cmake:59 (CHECK_CXX_COMPILER_FLAG_AND_ENABLE_IT)"
+      - "cmake/compiler-warnings.cmake:4 (include)"
+      - "CMakeLists.txt:193 (include)"
+    checks:
+      - "Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_STRINGOP_OVERFLOW"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-ugTllg"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-ugTllg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "RAWSPEED_HAVE_CXX_FLAG_WNO_STRINGOP_OVERFLOW"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-ugTllg'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ed7a5/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ed7a5.dir/build.make CMakeFiles/cmTC_ed7a5.dir/build
+        Building CXX object CMakeFiles/cmTC_ed7a5.dir/src.cxx.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DRAWSPEED_HAVE_CXX_FLAG_WNO_STRINGOP_OVERFLOW -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -std=c++20   -Wno-stringop-overflow -o CMakeFiles/cmTC_ed7a5.dir/src.cxx.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-ugTllg/src.cxx
+        Linking CXX executable cmTC_ed7a5.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed7a5.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_ed7a5.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_ed7a5.dir/objects.a @CMakeFiles/cmTC_ed7a5.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -static   -Wl,--whole-archive CMakeFiles/cmTC_ed7a5.dir/objects.a -Wl,--no-whole-archive -o cmTC_ed7a5.exe -Wl,--out-implib,lib/libcmTC_ed7a5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_ed7a5.dir/linkLibs.rsp
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Modules/CheckCXXCompilerFlagAndEnableIt.cmake:17 (CHECK_CXX_COMPILER_FLAG)"
+      - "cmake/compiler-warnings-gcc.cmake:59 (CHECK_CXX_COMPILER_FLAG_AND_ENABLE_IT)"
+      - "cmake/compiler-warnings.cmake:4 (include)"
+      - "CMakeLists.txt:193 (include)"
+    checks:
+      - "Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_ARRAY_BOUNDS"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-McqXkS"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-McqXkS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "RAWSPEED_HAVE_CXX_FLAG_WNO_ARRAY_BOUNDS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-McqXkS'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_419e0/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_419e0.dir/build.make CMakeFiles/cmTC_419e0.dir/build
+        Building CXX object CMakeFiles/cmTC_419e0.dir/src.cxx.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DRAWSPEED_HAVE_CXX_FLAG_WNO_ARRAY_BOUNDS -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -std=c++20   -Wno-array-bounds -o CMakeFiles/cmTC_419e0.dir/src.cxx.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-McqXkS/src.cxx
+        Linking CXX executable cmTC_419e0.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_419e0.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_419e0.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_419e0.dir/objects.a @CMakeFiles/cmTC_419e0.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -static   -Wl,--whole-archive CMakeFiles/cmTC_419e0.dir/objects.a -Wl,--no-whole-archive -o cmTC_419e0.exe -Wl,--out-implib,lib/libcmTC_419e0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_419e0.dir/linkLibs.rsp
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Modules/CheckCXXCompilerFlagAndEnableIt.cmake:17 (CHECK_CXX_COMPILER_FLAG)"
+      - "cmake/compiler-warnings-gcc.cmake:59 (CHECK_CXX_COMPILER_FLAG_AND_ENABLE_IT)"
+      - "cmake/compiler-warnings.cmake:4 (include)"
+      - "CMakeLists.txt:193 (include)"
+    checks:
+      - "Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_FREE_NONHEAP_OBJECT"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-WbFryy"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-WbFryy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "RAWSPEED_HAVE_CXX_FLAG_WNO_FREE_NONHEAP_OBJECT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-WbFryy'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_96f77/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_96f77.dir/build.make CMakeFiles/cmTC_96f77.dir/build
+        Building CXX object CMakeFiles/cmTC_96f77.dir/src.cxx.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DRAWSPEED_HAVE_CXX_FLAG_WNO_FREE_NONHEAP_OBJECT -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -std=c++20   -Wno-free-nonheap-object -o CMakeFiles/cmTC_96f77.dir/src.cxx.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-WbFryy/src.cxx
+        Linking CXX executable cmTC_96f77.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96f77.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_96f77.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_96f77.dir/objects.a @CMakeFiles/cmTC_96f77.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -static   -Wl,--whole-archive CMakeFiles/cmTC_96f77.dir/objects.a -Wl,--no-whole-archive -o cmTC_96f77.exe -Wl,--out-implib,lib/libcmTC_96f77.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_96f77.dir/linkLibs.rsp
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Modules/CheckCXXCompilerFlagAndEnableIt.cmake:17 (CHECK_CXX_COMPILER_FLAG)"
+      - "cmake/compiler-warnings.cmake:13 (CHECK_CXX_COMPILER_FLAG_AND_ENABLE_IT)"
+      - "CMakeLists.txt:193 (include)"
+    checks:
+      - "Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_FORMAT"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-psq1yY"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-psq1yY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "RAWSPEED_HAVE_CXX_FLAG_WNO_FORMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-psq1yY'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_501e7/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_501e7.dir/build.make CMakeFiles/cmTC_501e7.dir/build
+        Building CXX object CMakeFiles/cmTC_501e7.dir/src.cxx.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DRAWSPEED_HAVE_CXX_FLAG_WNO_FORMAT -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -std=c++20   -Wno-format -o CMakeFiles/cmTC_501e7.dir/src.cxx.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-psq1yY/src.cxx
+        Linking CXX executable cmTC_501e7.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_501e7.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_501e7.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_501e7.dir/objects.a @CMakeFiles/cmTC_501e7.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -static   -Wl,--whole-archive CMakeFiles/cmTC_501e7.dir/objects.a -Wl,--no-whole-archive -o cmTC_501e7.exe -Wl,--out-implib,lib/libcmTC_501e7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_501e7.dir/linkLibs.rsp
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Modules/CheckCXXCompilerFlagAndEnableIt.cmake:17 (CHECK_CXX_COMPILER_FLAG)"
+      - "cmake/compiler-warnings.cmake:19 (CHECK_CXX_COMPILER_FLAG_AND_ENABLE_IT)"
+      - "CMakeLists.txt:193 (include)"
+    checks:
+      - "Performing Test RAWSPEED_HAVE_CXX_FLAG_WSTACK_USAGE_4096"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-46lhZB"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-46lhZB"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "RAWSPEED_HAVE_CXX_FLAG_WSTACK_USAGE_4096"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-46lhZB'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_34ed0/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_34ed0.dir/build.make CMakeFiles/cmTC_34ed0.dir/build
+        Building CXX object CMakeFiles/cmTC_34ed0.dir/src.cxx.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DRAWSPEED_HAVE_CXX_FLAG_WSTACK_USAGE_4096 -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -std=c++20   -Wstack-usage=4096 -o CMakeFiles/cmTC_34ed0.dir/src.cxx.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-46lhZB/src.cxx
+        Linking CXX executable cmTC_34ed0.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34ed0.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_34ed0.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_34ed0.dir/objects.a @CMakeFiles/cmTC_34ed0.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -static   -Wl,--whole-archive CMakeFiles/cmTC_34ed0.dir/objects.a -Wl,--no-whole-archive -o cmTC_34ed0.exe -Wl,--out-implib,lib/libcmTC_34ed0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_34ed0.dir/linkLibs.rsp
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Modules/CheckCXXCompilerFlagAndEnableIt.cmake:17 (CHECK_CXX_COMPILER_FLAG)"
+      - "cmake/compiler-warnings.cmake:20 (CHECK_CXX_COMPILER_FLAG_AND_ENABLE_IT)"
+      - "CMakeLists.txt:193 (include)"
+    checks:
+      - "Performing Test RAWSPEED_HAVE_CXX_FLAG_WFRAME_LARGER_THAN_4096"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-cQOp7a"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-cQOp7a"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "RAWSPEED_HAVE_CXX_FLAG_WFRAME_LARGER_THAN_4096"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-cQOp7a'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5ff88/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5ff88.dir/build.make CMakeFiles/cmTC_5ff88.dir/build
+        Building CXX object CMakeFiles/cmTC_5ff88.dir/src.cxx.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DRAWSPEED_HAVE_CXX_FLAG_WFRAME_LARGER_THAN_4096 -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -std=c++20   -Wframe-larger-than=4096 -o CMakeFiles/cmTC_5ff88.dir/src.cxx.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-cQOp7a/src.cxx
+        Linking CXX executable cmTC_5ff88.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ff88.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_5ff88.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_5ff88.dir/objects.a @CMakeFiles/cmTC_5ff88.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -static   -Wl,--whole-archive CMakeFiles/cmTC_5ff88.dir/objects.a -Wl,--no-whole-archive -o cmTC_5ff88.exe -Wl,--out-implib,lib/libcmTC_5ff88.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_5ff88.dir/linkLibs.rsp
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/Modules/CheckCXXCompilerFlagAndEnableIt.cmake:17 (CHECK_CXX_COMPILER_FLAG)"
+      - "cmake/compiler-warnings.cmake:24 (CHECK_CXX_COMPILER_FLAG_AND_ENABLE_IT)"
+      - "CMakeLists.txt:193 (include)"
+    checks:
+      - "Performing Test RAWSPEED_HAVE_CXX_FLAG_WLARGER_THAN_32768"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-BuUFNW"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-BuUFNW"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "RAWSPEED_HAVE_CXX_FLAG_WLARGER_THAN_32768"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-BuUFNW'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7c2a9/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7c2a9.dir/build.make CMakeFiles/cmTC_7c2a9.dir/build
+        Building CXX object CMakeFiles/cmTC_7c2a9.dir/src.cxx.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DRAWSPEED_HAVE_CXX_FLAG_WLARGER_THAN_32768 -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -std=c++20   -Wlarger-than=32768 -o CMakeFiles/cmTC_7c2a9.dir/src.cxx.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-BuUFNW/src.cxx
+        Linking CXX executable cmTC_7c2a9.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c2a9.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_7c2a9.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_7c2a9.dir/objects.a @CMakeFiles/cmTC_7c2a9.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -static   -Wl,--whole-archive CMakeFiles/cmTC_7c2a9.dir/objects.a -Wl,--no-whole-archive -o cmTC_7c2a9.exe -Wl,--out-implib,lib/libcmTC_7c2a9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_7c2a9.dir/linkLibs.rsp
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/src-dependencies.cmake:43 (try_compile)"
+      - "CMakeLists.txt:211 (include)"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/byte/CMakeFiles/CMakeTmp"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/byte/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BASIC_TYPE_CHECKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/byte/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cf8e3/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_cf8e3.dir/build.make CMakeFiles/cmTC_cf8e3.dir/build
+        Building CXX object CMakeFiles/cmTC_cf8e3.dir/byte.cpp.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768  -std=c++20 -o CMakeFiles/cmTC_cf8e3.dir/byte.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/byte.cpp
+        Linking CXX executable cmTC_cf8e3.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf8e3.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_cf8e3.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_cf8e3.dir/objects.a @CMakeFiles/cmTC_cf8e3.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768  -static   -Wl,--whole-archive CMakeFiles/cmTC_cf8e3.dir/objects.a -Wl,--no-whole-archive -o cmTC_cf8e3.exe -Wl,--out-implib,lib/libcmTC_cf8e3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_cf8e3.dir/linkLibs.rsp
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/windows-x64/src/external/pugixml/src/CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/homebrew/bin/x86_64-w64-mingw32-gcc 
+      Build flags: -w
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/3.30.6/CompilerIdC/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/windows-x64/src/external/pugixml/src/CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-QSPRYY"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-QSPRYY"
+    cmakeVariables:
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_C_FLAGS: " -w"
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-QSPRYY'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_99b7a/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_99b7a.dir/build.make CMakeFiles/cmTC_99b7a.dir/build
+        Building C object CMakeFiles/cmTC_99b7a.dir/CMakeCCompilerABI.c.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-gcc -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -w    -v -o CMakeFiles/cmTC_99b7a.dir/CMakeCCompilerABI.c.obj -c /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/x86_64-w64-mingw32-gcc
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --target=x86_64-w64-mingw32 --with-sysroot=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 --prefix=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --enable-languages=c,c++,objc,obj-c++,fortran --with-ld=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-ld --with-as=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-as --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-system-zlib --with-zstd --disable-multilib --disable-nls --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-D' 'NOMINMAX' '-D' 'WIN32_LEAN_AND_MEAN' '-D' '_WIN32_WINNT=0x0601' '-w' '-v' '-o' 'CMakeFiles/cmTC_99b7a.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_99b7a.dir/'
+         /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1 -quiet -v -D_REENTRANT -D NOMINMAX -D WIN32_LEAN_AND_MEAN -D _WIN32_WINNT=0x0601 /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_99b7a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -w -version -o /var/folders/6y/78gsp8sd1z5_8vk02ytxzd000000gn/T//cc4VgdP5.s
+        GNU C23 (GCC) version 15.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version Apple LLVM 17.0.0 (clang-1700.0.13.3), GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/usr/local/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include
+         /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
+         /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: e55b7a4d81b06e3dbefefec4bca182c0
+        COLLECT_GCC_OPTIONS='-D' 'NOMINMAX' '-D' 'WIN32_LEAN_AND_MEAN' '-D' '_WIN32_WINNT=0x0601' '-w' '-v' '-o' 'CMakeFiles/cmTC_99b7a.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_99b7a.dir/'
+         /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-as -v -W -o CMakeFiles/cmTC_99b7a.dir/CMakeCCompilerABI.c.obj /var/folders/6y/78gsp8sd1z5_8vk02ytxzd000000gn/T//cc4VgdP5.s
+        GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45
+        COMPILER_PATH=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/
+        COLLECT_GCC_OPTIONS='-D' 'NOMINMAX' '-D' 'WIN32_LEAN_AND_MEAN' '-D' '_WIN32_WINNT=0x0601' '-w' '-v' '-o' 'CMakeFiles/cmTC_99b7a.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_99b7a.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_99b7a.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99b7a.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_99b7a.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_99b7a.dir/objects.a @CMakeFiles/cmTC_99b7a.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-gcc  -w  -static -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_99b7a.dir/objects.a -Wl,--no-whole-archive -o cmTC_99b7a.exe -Wl,--out-implib,lib/libcmTC_99b7a.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/x86_64-w64-mingw32-gcc
+        COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --target=x86_64-w64-mingw32 --with-sysroot=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 --prefix=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --enable-languages=c,c++,objc,obj-c++,fortran --with-ld=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-ld --with-as=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-as --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-system-zlib --with-zstd --disable-multilib --disable-nls --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (GCC) 
+        COMPILER_PATH=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/
+        COLLECT_GCC_OPTIONS='-w' '-static' '-v' '-o' 'cmTC_99b7a.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_99b7a.'
+         /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2 -plugin /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.so -plugin-opt=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/6y/78gsp8sd1z5_8vk02ytxzd000000gn/T//ccIiTNjh.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 -m i386pep -Bstatic -o cmTC_99b7a.exe /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0 -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib -v --whole-archive CMakeFiles/cmTC_99b7a.dir/objects.a --no-whole-archive --out-implib lib/libcmTC_99b7a.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        collect2 version 15.2.0
+        /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-ld -plugin /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.so -plugin-opt=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/6y/78gsp8sd1z5_8vk02ytxzd000000gn/T//ccIiTNjh.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 -m i386pep -Bstatic -o cmTC_99b7a.exe /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0 -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib -v --whole-archive CMakeFiles/cmTC_99b7a.dir/objects.a --no-whole-archive --out-implib lib/libcmTC_99b7a.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.45
+        COLLECT_GCC_OPTIONS='-w' '-static' '-v' '-o' 'cmTC_99b7a.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_99b7a.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/windows-x64/src/external/pugixml/src/CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+          add: [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+          add: [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        collapse include dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        collapse include dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/include]
+        implicit include dirs: [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include;/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed;/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/windows-x64/src/external/pugixml/src/CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-QSPRYY']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_99b7a/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_99b7a.dir/build.make CMakeFiles/cmTC_99b7a.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_99b7a.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/opt/homebrew/bin/x86_64-w64-mingw32-gcc -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -w    -v -o CMakeFiles/cmTC_99b7a.dir/CMakeCCompilerABI.c.obj -c /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/homebrew/bin/x86_64-w64-mingw32-gcc]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../configure --target=x86_64-w64-mingw32 --with-sysroot=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 --prefix=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --enable-languages=c,c++,objc,obj-c++,fortran --with-ld=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-ld --with-as=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-as --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-system-zlib --with-zstd --disable-multilib --disable-nls --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'NOMINMAX' '-D' 'WIN32_LEAN_AND_MEAN' '-D' '_WIN32_WINNT=0x0601' '-w' '-v' '-o' 'CMakeFiles/cmTC_99b7a.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_99b7a.dir/']
+        ignore line: [ /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1 -quiet -v -D_REENTRANT -D NOMINMAX -D WIN32_LEAN_AND_MEAN -D _WIN32_WINNT=0x0601 /Applications/CMake.app/Contents/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_99b7a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -w -version -o /var/folders/6y/78gsp8sd1z5_8vk02ytxzd000000gn/T//cc4VgdP5.s]
+        ignore line: [GNU C23 (GCC) version 15.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version Apple LLVM 17.0.0 (clang-1700.0.13.3)  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        ignore line: [ /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        ignore line: [ /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: e55b7a4d81b06e3dbefefec4bca182c0]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'NOMINMAX' '-D' 'WIN32_LEAN_AND_MEAN' '-D' '_WIN32_WINNT=0x0601' '-w' '-v' '-o' 'CMakeFiles/cmTC_99b7a.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_99b7a.dir/']
+        ignore line: [ /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-as -v -W -o CMakeFiles/cmTC_99b7a.dir/CMakeCCompilerABI.c.obj /var/folders/6y/78gsp8sd1z5_8vk02ytxzd000000gn/T//cc4VgdP5.s]
+        ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45]
+        ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'NOMINMAX' '-D' 'WIN32_LEAN_AND_MEAN' '-D' '_WIN32_WINNT=0x0601' '-w' '-v' '-o' 'CMakeFiles/cmTC_99b7a.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_99b7a.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_99b7a.exe]
+        ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99b7a.dir/link.txt --verbose=1]
+        ignore line: [/Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_99b7a.dir/objects.a]
+        ignore line: [/opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_99b7a.dir/objects.a @CMakeFiles/cmTC_99b7a.dir/objects1.rsp]
+        ignore line: [/opt/homebrew/bin/x86_64-w64-mingw32-gcc  -w  -static -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_99b7a.dir/objects.a -Wl --no-whole-archive -o cmTC_99b7a.exe -Wl --out-implib lib/libcmTC_99b7a.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/homebrew/bin/x86_64-w64-mingw32-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../configure --target=x86_64-w64-mingw32 --with-sysroot=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 --prefix=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --enable-languages=c,c++,objc,obj-c++,fortran --with-ld=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-ld --with-as=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-as --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-system-zlib --with-zstd --disable-multilib --disable-nls --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/:/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-w' '-static' '-v' '-o' 'cmTC_99b7a.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_99b7a.']
+        link line: [ /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2 -plugin /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.so -plugin-opt=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/6y/78gsp8sd1z5_8vk02ytxzd000000gn/T//ccIiTNjh.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 -m i386pep -Bstatic -o cmTC_99b7a.exe /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0 -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib -v --whole-archive CMakeFiles/cmTC_99b7a.dir/objects.a --no-whole-archive --out-implib lib/libcmTC_99b7a.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+          arg [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/6y/78gsp8sd1z5_8vk02ytxzd000000gn/T//ccIiTNjh.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bstatic] ==> search static
+          arg [-o] ==> ignore
+          arg [cmTC_99b7a.exe] ==> ignore
+          arg [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+          arg [-L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0]
+          arg [-L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib] ==> dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib]
+          arg [-L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib] ==> dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles/cmTC_99b7a.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [lib/libcmTC_99b7a.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/bin/x86_64-w64-mingw32-ld -plugin /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.so -plugin-opt=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/6y/78gsp8sd1z5_8vk02ytxzd000000gn/T//ccIiTNjh.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64 -m i386pep -Bstatic -o cmTC_99b7a.exe /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0 -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -L/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib -v --whole-archive CMakeFiles/cmTC_99b7a.dir/objects.a --no-whole-archive --out-implib lib/libcmTC_99b7a.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 /opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [GNU ld (GNU Binutils) 2.45]
+        ignore line: [COLLECT_GCC_OPTIONS='-w' '-static' '-v' '-o' 'cmTC_99b7a.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_99b7a.']
+        ignore line: []
+        ignore line: []
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse library dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0]
+        collapse library dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/lib]
+        collapse library dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib/../lib] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib]
+        collapse library dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/lib]
+        collapse library dir [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib] ==> [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib]
+        implicit libs: [mingw32;gcc;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;mingwex;kernel32]
+        implicit objs: [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/lib/crt2.o;/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o;/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        implicit dirs: [/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/lib/gcc/x86_64-w64-mingw32/15.2.0;/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/x86_64-w64-mingw32/lib;/opt/homebrew/Cellar/mingw-w64/13.0.0_2/toolchain-x86_64/mingw/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/Modules/thread-local.cmake:3 (CHECK_CXX_SOURCE_COMPILES)"
+      - "src/CMakeLists.txt:1 (include)"
+    checks:
+      - "Performing Test HAVE_CXX_THREAD_LOCAL"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-cz7EmB"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-cz7EmB"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_CXX_THREAD_LOCAL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-cz7EmB'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_417f4/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_417f4.dir/build.make CMakeFiles/cmTC_417f4.dir/build
+        Building CXX object CMakeFiles/cmTC_417f4.dir/src.cxx.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DHAVE_CXX_THREAD_LOCAL -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768  -std=c++20 -o CMakeFiles/cmTC_417f4.dir/src.cxx.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/CMakeFiles/CMakeScratch/TryCompile-cz7EmB/src.cxx
+        Linking CXX executable cmTC_417f4.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_417f4.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_417f4.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_417f4.dir/objects.a @CMakeFiles/cmTC_417f4.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768  -static   -Wl,--whole-archive CMakeFiles/cmTC_417f4.dir/objects.a -Wl,--no-whole-archive -o cmTC_417f4.exe -Wl,--out-implib,lib/libcmTC_417f4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_417f4.dir/linkLibs.rsp
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/src-dependencies.cmake:43 (try_compile)"
+      - "CMakeLists.txt:211 (include)"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/byte/CMakeFiles/CMakeTmp"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/byte/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BASIC_TYPE_CHECKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/byte/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b6588/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b6588.dir/build.make CMakeFiles/cmTC_b6588.dir/build
+        Building CXX object CMakeFiles/cmTC_b6588.dir/byte.cpp.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768  -std=c++20 -o CMakeFiles/cmTC_b6588.dir/byte.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/byte.cpp
+        Linking CXX executable cmTC_b6588.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6588.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_b6588.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_b6588.dir/objects.a @CMakeFiles/cmTC_b6588.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768  -static   -Wl,--whole-archive CMakeFiles/cmTC_b6588.dir/objects.a -Wl,--no-whole-archive -o cmTC_b6588.exe -Wl,--out-implib,lib/libcmTC_b6588.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_b6588.dir/linkLibs.rsp
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/src-dependencies.cmake:43 (try_compile)"
+      - "CMakeLists.txt:211 (include)"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/byte/CMakeFiles/CMakeTmp"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/byte/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BASIC_TYPE_CHECKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/byte/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b913f/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b913f.dir/build.make CMakeFiles/cmTC_b913f.dir/build
+        Building CXX object CMakeFiles/cmTC_b913f.dir/byte.cpp.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768  -std=c++20 -o CMakeFiles/cmTC_b913f.dir/byte.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/byte.cpp
+        Linking CXX executable cmTC_b913f.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b913f.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_b913f.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_b913f.dir/objects.a @CMakeFiles/cmTC_b913f.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768  -static   -Wl,--whole-archive CMakeFiles/cmTC_b913f.dir/objects.a -Wl,--no-whole-archive -o cmTC_b913f.exe -Wl,--out-implib,lib/libcmTC_b913f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_b913f.dir/linkLibs.rsp
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/src-dependencies.cmake:43 (try_compile)"
+      - "CMakeLists.txt:211 (include)"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/byte/CMakeFiles/CMakeTmp"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/byte/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BASIC_TYPE_CHECKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/byte/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fa0ef/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_fa0ef.dir/build.make CMakeFiles/cmTC_fa0ef.dir/build
+        Building CXX object CMakeFiles/cmTC_fa0ef.dir/byte.cpp.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768  -std=c++20 -o CMakeFiles/cmTC_fa0ef.dir/byte.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/byte.cpp
+        Linking CXX executable cmTC_fa0ef.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa0ef.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_fa0ef.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_fa0ef.dir/objects.a @CMakeFiles/cmTC_fa0ef.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768  -static   -Wl,--whole-archive CMakeFiles/cmTC_fa0ef.dir/objects.a -Wl,--no-whole-archive -o cmTC_fa0ef.exe -Wl,--out-implib,lib/libcmTC_fa0ef.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_fa0ef.dir/linkLibs.rsp
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/src-dependencies.cmake:43 (try_compile)"
+      - "CMakeLists.txt:211 (include)"
+    directories:
+      source: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/byte/CMakeFiles/CMakeTmp"
+      binary: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/build/windows-x64/byte/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768"
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_CXX_SCAN_FOR_MODULES: "NO"
+      CMAKE_EXE_LINKER_FLAGS: "-static "
+      CMAKE_MODULE_PATH: "/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/;/Users/fuguoqiang/Desktop/bridge/\u6784\u5efa/rawspeed/cmake/Modules/"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "BASIC_TYPE_CHECKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/byte/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9ee5e/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_9ee5e.dir/build.make CMakeFiles/cmTC_9ee5e.dir/build
+        Building CXX object CMakeFiles/cmTC_9ee5e.dir/byte.cpp.obj
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601  -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768  -std=c++20 -o CMakeFiles/cmTC_9ee5e.dir/byte.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/byte.cpp
+        Linking CXX executable cmTC_9ee5e.exe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ee5e.dir/link.txt --verbose=1
+        /Applications/CMake.app/Contents/bin/cmake -E rm -f CMakeFiles/cmTC_9ee5e.dir/objects.a
+        /opt/homebrew/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_9ee5e.dir/objects.a @CMakeFiles/cmTC_9ee5e.dir/objects1.rsp
+        /opt/homebrew/bin/x86_64-w64-mingw32-g++ -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768  -static   -Wl,--whole-archive CMakeFiles/cmTC_9ee5e.dir/objects.a -Wl,--no-whole-archive -o cmTC_9ee5e.exe -Wl,--out-implib,lib/libcmTC_9ee5e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_9ee5e.dir/linkLibs.rsp
+        
+      exitCode: 0
+...

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/CMakeFiles/googlebenchmark"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/CMakeFiles/googlebenchmark.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/CMakeFiles/googlebenchmark-complete.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/stamp/googlebenchmark-build.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/stamp/googlebenchmark-configure.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/stamp/googlebenchmark-download.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/stamp/googlebenchmark-install.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/stamp/googlebenchmark-mkdir.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/stamp/googlebenchmark-patch.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/stamp/googlebenchmark-test.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/stamp/googlebenchmark-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googlebenchmark"
+		],
+		"name" : "googlebenchmark"
+	}
+}

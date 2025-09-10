@@ -1,0 +1,542 @@
+[
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/external/pugixml/build",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/pugixml.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -w -O3 -DNDEBUG -O3 -std=c++20   -mtune=generic -g3 -ggdb3 -o CMakeFiles/pugixml.dir/src/pugixml.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/external/pugixml/src/src/pugixml.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/external/pugixml/src/src/pugixml.cpp",
+  "output": "src/external/pugixml/build/CMakeFiles/pugixml.dir/src/pugixml.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/common",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_common.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_common.dir/ChecksumFile.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/ChecksumFile.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/ChecksumFile.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/ChecksumFile.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/common",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_common.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_common.dir/Common.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/Common.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/Common.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/Common.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/common",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_common.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_common.dir/CpuFeatures.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/CpuFeatures.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/CpuFeatures.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/CpuFeatures.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/common",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_common.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_common.dir/DngOpcodes.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/DngOpcodes.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/DngOpcodes.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/DngOpcodes.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/common",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_common.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_common.dir/ErrorLog.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/ErrorLog.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/ErrorLog.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/ErrorLog.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/common",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_common.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_common.dir/GetNumberOfProcessorCores.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/GetNumberOfProcessorCores.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/GetNumberOfProcessorCores.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/GetNumberOfProcessorCores.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/common",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_common.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_common.dir/RawImage.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/RawImage.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/RawImage.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/RawImage.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/common",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_common.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_common.dir/RawImageDataFloat.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/RawImageDataFloat.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/RawImageDataFloat.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/RawImageDataFloat.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/common",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_common.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_common.dir/RawImageDataU16.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/RawImageDataU16.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/RawImageDataU16.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/RawImageDataU16.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/common",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_common.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_common.dir/RawspeedException.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/RawspeedException.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/RawspeedException.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/RawspeedException.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/common",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_common.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_common.dir/TableLookUp.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/TableLookUp.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/TableLookUp.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/TableLookUp.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/common",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_get_number_of_processor_cores.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_get_number_of_processor_cores.dir/GetNumberOfProcessorCores.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/GetNumberOfProcessorCores.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/GetNumberOfProcessorCores.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_get_number_of_processor_cores.dir/GetNumberOfProcessorCores.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/metadata",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_metadata.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_metadata.dir/Camera.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/Camera.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/Camera.cpp",
+  "output": "src/librawspeed/metadata/CMakeFiles/rawspeed_metadata.dir/Camera.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/metadata",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_metadata.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_metadata.dir/CameraMetaData.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/CameraMetaData.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/CameraMetaData.cpp",
+  "output": "src/librawspeed/metadata/CMakeFiles/rawspeed_metadata.dir/CameraMetaData.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/metadata",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_metadata.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_metadata.dir/CameraMetadataException.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/CameraMetadataException.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/CameraMetadataException.cpp",
+  "output": "src/librawspeed/metadata/CMakeFiles/rawspeed_metadata.dir/CameraMetadataException.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/metadata",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_metadata.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_metadata.dir/CameraSensorInfo.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/CameraSensorInfo.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/CameraSensorInfo.cpp",
+  "output": "src/librawspeed/metadata/CMakeFiles/rawspeed_metadata.dir/CameraSensorInfo.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/metadata",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_metadata.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_metadata.dir/ColorFilterArray.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/ColorFilterArray.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/ColorFilterArray.cpp",
+  "output": "src/librawspeed/metadata/CMakeFiles/rawspeed_metadata.dir/ColorFilterArray.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/io",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_io.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_io.dir/FileIOException.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/FileIOException.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/FileIOException.cpp",
+  "output": "src/librawspeed/io/CMakeFiles/rawspeed_io.dir/FileIOException.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/io",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_io.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_io.dir/FileReader.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/FileReader.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/FileReader.cpp",
+  "output": "src/librawspeed/io/CMakeFiles/rawspeed_io.dir/FileReader.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/io",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_io.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_io.dir/FileWriter.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/FileWriter.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/FileWriter.cpp",
+  "output": "src/librawspeed/io/CMakeFiles/rawspeed_io.dir/FileWriter.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/io",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_io.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_io.dir/IOException.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/IOException.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/IOException.cpp",
+  "output": "src/librawspeed/io/CMakeFiles/rawspeed_io.dir/IOException.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/io",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_io.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_io.dir/MMapReader.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/MMapReader.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/MMapReader.cpp",
+  "output": "src/librawspeed/io/CMakeFiles/rawspeed_io.dir/MMapReader.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/tiff",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_tiff.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_tiff.dir/CiffEntry.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/tiff/CiffEntry.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/tiff/CiffEntry.cpp",
+  "output": "src/librawspeed/tiff/CMakeFiles/rawspeed_tiff.dir/CiffEntry.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/tiff",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_tiff.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_tiff.dir/CiffIFD.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/tiff/CiffIFD.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/tiff/CiffIFD.cpp",
+  "output": "src/librawspeed/tiff/CMakeFiles/rawspeed_tiff.dir/CiffIFD.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/tiff",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_tiff.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_tiff.dir/TiffEntry.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/tiff/TiffEntry.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/tiff/TiffEntry.cpp",
+  "output": "src/librawspeed/tiff/CMakeFiles/rawspeed_tiff.dir/TiffEntry.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/tiff",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_tiff.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_tiff.dir/TiffIFD.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/tiff/TiffIFD.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/tiff/TiffIFD.cpp",
+  "output": "src/librawspeed/tiff/CMakeFiles/rawspeed_tiff.dir/TiffIFD.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/parsers",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_parsers.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_parsers.dir/CiffParser.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/CiffParser.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/CiffParser.cpp",
+  "output": "src/librawspeed/parsers/CMakeFiles/rawspeed_parsers.dir/CiffParser.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/parsers",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_parsers.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_parsers.dir/CiffParserException.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/CiffParserException.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/CiffParserException.cpp",
+  "output": "src/librawspeed/parsers/CMakeFiles/rawspeed_parsers.dir/CiffParserException.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/parsers",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_parsers.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_parsers.dir/FiffParser.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/FiffParser.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/FiffParser.cpp",
+  "output": "src/librawspeed/parsers/CMakeFiles/rawspeed_parsers.dir/FiffParser.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/parsers",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_parsers.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_parsers.dir/FiffParserException.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/FiffParserException.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/FiffParserException.cpp",
+  "output": "src/librawspeed/parsers/CMakeFiles/rawspeed_parsers.dir/FiffParserException.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/parsers",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_parsers.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_parsers.dir/RawParser.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/RawParser.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/RawParser.cpp",
+  "output": "src/librawspeed/parsers/CMakeFiles/rawspeed_parsers.dir/RawParser.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/parsers",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_parsers.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_parsers.dir/RawParserException.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/RawParserException.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/RawParserException.cpp",
+  "output": "src/librawspeed/parsers/CMakeFiles/rawspeed_parsers.dir/RawParserException.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/parsers",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_parsers.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_parsers.dir/TiffParser.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/TiffParser.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/TiffParser.cpp",
+  "output": "src/librawspeed/parsers/CMakeFiles/rawspeed_parsers.dir/TiffParser.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/parsers",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_parsers.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_parsers.dir/TiffParserException.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/TiffParserException.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/TiffParserException.cpp",
+  "output": "src/librawspeed/parsers/CMakeFiles/rawspeed_parsers.dir/TiffParserException.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/AbstractDngDecompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/AbstractDngDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/AbstractDngDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/AbstractDngDecompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/AbstractLJpegDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/AbstractLJpegDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/AbstractLJpegDecoder.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/AbstractLJpegDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/Cr2Decompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/Cr2Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/Cr2Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/Cr2Decompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/Cr2LJpegDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/Cr2LJpegDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/Cr2LJpegDecoder.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/Cr2LJpegDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/CrwDecompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/CrwDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/CrwDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/CrwDecompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/DeflateDecompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/DeflateDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/DeflateDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/DeflateDecompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/FujiDecompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/FujiDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/FujiDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/FujiDecompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/HasselbladDecompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/HasselbladDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/HasselbladDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/HasselbladDecompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/HasselbladLJpegDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/HasselbladLJpegDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/HasselbladLJpegDecoder.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/HasselbladLJpegDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/JpegDecompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/JpegDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/JpegDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/JpegDecompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/KodakDecompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/KodakDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/KodakDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/KodakDecompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/LJpegDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/LJpegDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/LJpegDecoder.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/LJpegDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/LJpegDecompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/LJpegDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/LJpegDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/LJpegDecompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/NikonDecompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/NikonDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/NikonDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/NikonDecompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/OlympusDecompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/OlympusDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/OlympusDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/OlympusDecompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/PanasonicV4Decompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PanasonicV4Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PanasonicV4Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/PanasonicV4Decompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/PanasonicV5Decompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PanasonicV5Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PanasonicV5Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/PanasonicV5Decompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/PanasonicV6Decompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PanasonicV6Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PanasonicV6Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/PanasonicV6Decompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/PanasonicV7Decompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PanasonicV7Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PanasonicV7Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/PanasonicV7Decompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/PanasonicV8Decompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PanasonicV8Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PanasonicV8Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/PanasonicV8Decompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/PentaxDecompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PentaxDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PentaxDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/PentaxDecompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/PhaseOneDecompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PhaseOneDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PhaseOneDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/PhaseOneDecompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/SamsungV0Decompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/SamsungV0Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/SamsungV0Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/SamsungV0Decompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/SamsungV1Decompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/SamsungV1Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/SamsungV1Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/SamsungV1Decompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/SamsungV2Decompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/SamsungV2Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/SamsungV2Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/SamsungV2Decompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/SonyArw1Decompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/SonyArw1Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/SonyArw1Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/SonyArw1Decompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/SonyArw2Decompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/SonyArw2Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/SonyArw2Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/SonyArw2Decompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/UncompressedDecompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/UncompressedDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/UncompressedDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/UncompressedDecompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decompressors",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decompressors.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decompressors.dir/VC5Decompressor.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/VC5Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/VC5Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/VC5Decompressor.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/interpolators",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_interpolators.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_interpolators.dir/Cr2sRawInterpolator.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/interpolators/Cr2sRawInterpolator.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/interpolators/Cr2sRawInterpolator.cpp",
+  "output": "src/librawspeed/interpolators/CMakeFiles/rawspeed_interpolators.dir/Cr2sRawInterpolator.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/AbstractTiffDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/AbstractTiffDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/AbstractTiffDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/AbstractTiffDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/ArwDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/ArwDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/ArwDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/ArwDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/Cr2Decoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/Cr2Decoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/Cr2Decoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/Cr2Decoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/CrwDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/CrwDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/CrwDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/CrwDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/DcrDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/DcrDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/DcrDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/DcrDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/DcsDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/DcsDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/DcsDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/DcsDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/DngDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/DngDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/DngDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/DngDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/ErfDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/ErfDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/ErfDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/ErfDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/IiqDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/IiqDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/IiqDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/IiqDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/KdcDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/KdcDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/KdcDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/KdcDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/MefDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/MefDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/MefDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/MefDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/MosDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/MosDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/MosDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/MosDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/MrwDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/MrwDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/MrwDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/MrwDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/NakedDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/NakedDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/NakedDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/NakedDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/NefDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/NefDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/NefDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/NefDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/OrfDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/OrfDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/OrfDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/OrfDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/PefDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/PefDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/PefDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/PefDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/RafDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/RafDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/RafDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/RafDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/RawDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/RawDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/RawDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/RawDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/RawDecoderException.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/RawDecoderException.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/RawDecoderException.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/RawDecoderException.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/Rw2Decoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/Rw2Decoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/Rw2Decoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/Rw2Decoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/SimpleTiffDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/SimpleTiffDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/SimpleTiffDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/SimpleTiffDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/SrwDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/SrwDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/SrwDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/SrwDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/StiDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/StiDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/StiDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/StiDecoder.cpp.obj"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/windows-x64/src/librawspeed/decoders",
+  "command": "/opt/homebrew/bin/x86_64-w64-mingw32-g++ -DNDEBUG -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0601 @CMakeFiles/rawspeed_decoders.dir/includes_CXX.rsp -static-libgcc -static-libstdc++ -Wall -Wextra -Wcast-qual -Wextra -Wextra-semi -Wformat=2 -Wpointer-arith -Wvla -Wno-unused-parameter -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-array-bounds -Wno-free-nonheap-object -Wno-format -Wstack-usage=4096 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -fvisibility=hidden -fno-keep-inline-dllexport   -mtune=generic -g3 -ggdb3 -o CMakeFiles/rawspeed_decoders.dir/ThreefrDecoder.cpp.obj -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/ThreefrDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/ThreefrDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/ThreefrDecoder.cpp.obj"
+}
+]

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googletest/CMakeFiles/googletest"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googletest/CMakeFiles/googletest.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googletest/CMakeFiles/googletest-complete.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googletest/stamp/googletest-build.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googletest/stamp/googletest-configure.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googletest/stamp/googletest-download.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googletest/stamp/googletest-install.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googletest/stamp/googletest-mkdir.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googletest/stamp/googletest-patch.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googletest/stamp/googletest-test.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googletest/stamp/googletest-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest"
+		],
+		"name" : "googletest"
+	}
+}

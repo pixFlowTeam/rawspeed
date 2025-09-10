@@ -1,0 +1,2 @@
+/usr/bin/ar qc librawspeed_bench.a CMakeFiles/rawspeed_bench.dir/bench/Common.cpp.o CMakeFiles/rawspeed_bench.dir/__/__/test/librawspeed/test/RawSpeed.cpp.o CMakeFiles/rawspeed_bench.dir/bitstreams/BitStreamJPEGUtils.cpp.o
+/usr/bin/ranlib librawspeed_bench.a

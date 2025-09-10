@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/src/openmp/runtime/src/z_Linux_asm.S
+kmp_config.h
+/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/src/openmp/runtime/src/kmp_config.h
+
+src/external/llvm-openmp/build/runtime/src/kmp_config.h
+kmp_platform.h
+src/external/llvm-openmp/build/runtime/src/kmp_platform.h
+
+src/external/llvm-openmp/src/openmp/runtime/src/kmp_platform.h
+

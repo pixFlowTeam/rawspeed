@@ -1,0 +1,2 @@
+/usr/bin/ar qc librawspeed_test.a CMakeFiles/rawspeed_test.dir/test/RawSpeed.cpp.o
+/usr/bin/ranlib librawspeed_test.a

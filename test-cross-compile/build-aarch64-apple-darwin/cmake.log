@@ -1,0 +1,873 @@
+-- Cross-compilation configuration loaded
+-- Target architecture: aarch64
+-- Using bundled dependencies: OpenMP, Pugixml, ZLIB
+-- Disabled features: JPEG, Testing, Benchmarking, Documentation, Fuzzing, Tools
+-- Cross-compilation configuration loaded
+-- Target architecture: aarch64
+-- Using bundled dependencies: OpenMP, Pugixml, ZLIB
+-- Disabled features: JPEG, Testing, Benchmarking, Documentation, Fuzzing, Tools
+-- The CXX compiler identification is AppleClang 17.0.0.17000013
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing libstdc++ version check
+-- Performing libstdc++ version check - Success
+-- Performing libc++ version check
+-- Performing libc++ version check - Success
+-- Checking for -mtune=generic support
+-- Performing Test RAWSPEED_MTUNEGENERIC
+-- Performing Test RAWSPEED_MTUNEGENERIC - Success
+-- Checking for -mtune=generic support - works
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WSTACK_USAGE_4096
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WSTACK_USAGE_4096 - Failed
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WFRAME_LARGER_THAN_4096
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WFRAME_LARGER_THAN_4096 - Success
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WLARGER_THAN_32768
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WLARGER_THAN_32768 - Success
+-- Looking for Google Test sources
+-- Looking for Google Test sources in /usr/src/googletest
+CMake Warning at CMakeLists.txt:36 (message):
+  Did not find Google Test sources! Fetching from web...
+
+
+CMake Warning (dev) at /Applications/CMake.app/Contents/share/cmake-3.30/Modules/ExternalProject/shared_internal_commands.cmake:1284 (message):
+  The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+  not set.  The policy's OLD behavior will be used.  When using a URL
+  download, the timestamps of extracted files should preferably be that of
+  the time of extraction, otherwise code that depends on the extracted
+  contents might not be rebuilt if the URL changes.  The OLD behavior
+  preserves the timestamps from the archive instead, but this is usually not
+  what you want.  Update your project to the NEW behavior or specify the
+  DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+  robustness issue.
+Call Stack (most recent call first):
+  /Applications/CMake.app/Contents/share/cmake-3.30/Modules/ExternalProject.cmake:3035 (_ep_add_download_command)
+  CMakeLists.txt:37 (ExternalProject_Add)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googletest
+[ 11%] Creating directories for 'googletest'
+[ 22%] Performing download step (download, verify and extract) for 'googletest'
+-- Downloading...
+   dst='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googletest/download/v1.13.0.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/google/googletest/archive/v1.13.0.tar.gz'
+-- [download 0% complete]
+-- [download 1% complete]
+-- [download 2% complete]
+-- [download 4% complete]
+-- [download 5% complete]
+-- [download 6% complete]
+-- [download 7% complete]
+-- [download 9% complete]
+-- [download 10% complete]
+-- [download 11% complete]
+-- [download 12% complete]
+-- [download 14% complete]
+-- [download 15% complete]
+-- [download 16% complete]
+-- [download 17% complete]
+-- [download 18% complete]
+-- [download 19% complete]
+-- [download 20% complete]
+-- [download 22% complete]
+-- [download 24% complete]
+-- [download 26% complete]
+-- [download 28% complete]
+-- [download 29% complete]
+-- [download 30% complete]
+-- [download 32% complete]
+-- [download 33% complete]
+-- [download 34% complete]
+-- [download 36% complete]
+-- [download 37% complete]
+-- [download 38% complete]
+-- [download 39% complete]
+-- [download 40% complete]
+-- [download 41% complete]
+-- [download 43% complete]
+-- [download 44% complete]
+-- [download 45% complete]
+-- [download 47% complete]
+-- [download 48% complete]
+-- [download 49% complete]
+-- [download 50% complete]
+-- [download 52% complete]
+-- [download 54% complete]
+-- [download 56% complete]
+-- [download 57% complete]
+-- [download 59% complete]
+-- [download 60% complete]
+-- [download 62% complete]
+-- [download 63% complete]
+-- [download 64% complete]
+-- [download 65% complete]
+-- [download 66% complete]
+-- [download 67% complete]
+-- [download 69% complete]
+-- [download 70% complete]
+-- [download 72% complete]
+-- [download 74% complete]
+-- [download 76% complete]
+-- [download 77% complete]
+-- [download 78% complete]
+-- [download 79% complete]
+-- [download 81% complete]
+-- [download 83% complete]
+-- [download 85% complete]
+-- [download 87% complete]
+-- [download 89% complete]
+-- [download 90% complete]
+-- [download 92% complete]
+-- [download 93% complete]
+-- [download 94% complete]
+-- [download 95% complete]
+-- [download 96% complete]
+-- [download 98% complete]
+-- [download 99% complete]
+-- [download 100% complete]
+-- verifying file...
+       file='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googletest/download/v1.13.0.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googletest/download/v1.13.0.tar.gz'
+     dst='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googletest/src'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 33%] No update step for 'googletest'
+[ 44%] No patch step for 'googletest'
+[ 55%] No configure step for 'googletest'
+[ 66%] No build step for 'googletest'
+[ 77%] No install step for 'googletest'
+[ 88%] No test step for 'googletest'
+[100%] Completed 'googletest'
+[100%] Built target googletest
+-- The C compiler identification is AppleClang 17.0.0.17000013
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found Python: /opt/miniconda3/bin/python3.12 (found version "3.12.2") found components: Interpreter
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Looking for GOOGLEBENCHMARK sources
+-- Looking for GOOGLEBENCHMARK sources in /usr/src/googlebenchmark
+CMake Warning at CMakeLists.txt:33 (message):
+  Did not find GOOGLEBENCHMARK sources! Fetching from web...
+
+
+CMake Warning (dev) at /Applications/CMake.app/Contents/share/cmake-3.30/Modules/ExternalProject/shared_internal_commands.cmake:1284 (message):
+  The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+  not set.  The policy's OLD behavior will be used.  When using a URL
+  download, the timestamps of extracted files should preferably be that of
+  the time of extraction, otherwise code that depends on the extracted
+  contents might not be rebuilt if the URL changes.  The OLD behavior
+  preserves the timestamps from the archive instead, but this is usually not
+  what you want.  Update your project to the NEW behavior or specify the
+  DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+  robustness issue.
+Call Stack (most recent call first):
+  /Applications/CMake.app/Contents/share/cmake-3.30/Modules/ExternalProject.cmake:3035 (_ep_add_download_command)
+  CMakeLists.txt:34 (ExternalProject_Add)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark
+[ 11%] Creating directories for 'googlebenchmark'
+[ 22%] Performing download step (download, verify and extract) for 'googlebenchmark'
+-- Downloading...
+   dst='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/download/v1.9.3.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/google/benchmark/archive/v1.9.3.tar.gz'
+-- verifying file...
+       file='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/download/v1.9.3.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/download/v1.9.3.tar.gz'
+     dst='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/src'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 33%] No update step for 'googlebenchmark'
+[ 44%] No patch step for 'googlebenchmark'
+[ 55%] No configure step for 'googlebenchmark'
+[ 66%] No build step for 'googlebenchmark'
+[ 77%] No install step for 'googlebenchmark'
+[ 88%] No test step for 'googlebenchmark'
+[100%] Completed 'googlebenchmark'
+[100%] Built target googlebenchmark
+-- Found Git: /usr/bin/git (found version "2.39.5 (Apple Git-154)")
+-- Google Benchmark version: v1.9.3, normalized to 1.9.3
+-- Looking for shm_open in rt
+-- Looking for shm_open in rt - not found
+-- Performing Test HAVE_CXX_FLAG_WALL
+-- Performing Test HAVE_CXX_FLAG_WALL - Success
+-- Performing Test HAVE_CXX_FLAG_WEXTRA
+-- Performing Test HAVE_CXX_FLAG_WEXTRA - Success
+-- Performing Test HAVE_CXX_FLAG_WSHADOW
+-- Performing Test HAVE_CXX_FLAG_WSHADOW - Success
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL
+-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL - Success
+-- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST
+-- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST - Success
+-- Performing Test HAVE_CXX_FLAG_WCONVERSION
+-- Performing Test HAVE_CXX_FLAG_WCONVERSION - Success
+-- Performing Test HAVE_CXX_FLAG_WERROR
+-- Performing Test HAVE_CXX_FLAG_WERROR - Success
+-- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE
+-- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC - Success
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS
+-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS - Success
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Success
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS - Success
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED
+-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED - Success
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING
+-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING - Success
+-- Performing Test HAVE_CXX_FLAG_WD654
+-- Performing Test HAVE_CXX_FLAG_WD654 - Failed
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Success
+-- Enabling additional flags: -DINCLUDE_DIRECTORIES=/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/src/include
+-- Cross-compiling to test HAVE_THREAD_SAFETY_ATTRIBUTES
+CMake Warning at test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/src/cmake/CXXFeatureCheck.cmake:49 (message):
+  If you see build failures due to cross compilation, try setting
+  HAVE_THREAD_SAFETY_ATTRIBUTES to 0
+Call Stack (most recent call first):
+  test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/src/CMakeLists.txt:238 (cxx_feature_check)
+
+
+-- Performing Test HAVE_THREAD_SAFETY_ATTRIBUTES -- success
+-- Performing Test HAVE_CXX_FLAG_COVERAGE
+-- Performing Test HAVE_CXX_FLAG_COVERAGE - Success
+-- Cross-compiling to test HAVE_STD_REGEX
+CMake Warning at test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/src/cmake/CXXFeatureCheck.cmake:49 (message):
+  If you see build failures due to cross compilation, try setting
+  HAVE_STD_REGEX to 0
+Call Stack (most recent call first):
+  test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/src/CMakeLists.txt:311 (cxx_feature_check)
+
+
+-- Performing Test HAVE_STD_REGEX -- success
+-- Cross-compiling to test HAVE_GNU_POSIX_REGEX
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Cross-compiling to test HAVE_POSIX_REGEX
+CMake Warning at test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/src/cmake/CXXFeatureCheck.cmake:49 (message):
+  If you see build failures due to cross compilation, try setting
+  HAVE_POSIX_REGEX to 0
+Call Stack (most recent call first):
+  test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/src/CMakeLists.txt:313 (cxx_feature_check)
+
+
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Cross-compiling to test HAVE_STEADY_CLOCK
+CMake Warning at test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/src/cmake/CXXFeatureCheck.cmake:49 (message):
+  If you see build failures due to cross compilation, try setting
+  HAVE_STEADY_CLOCK to 0
+Call Stack (most recent call first):
+  test-cross-compile/build-aarch64-apple-darwin/src/external/googlebenchmark/src/CMakeLists.txt:322 (cxx_feature_check)
+
+
+-- Performing Test HAVE_STEADY_CLOCK -- success
+-- Cross-compiling to test HAVE_PTHREAD_AFFINITY
+-- Performing Test HAVE_PTHREAD_AFFINITY -- failed to compile
+-- Performing basic integral type checks
+-- Performing basic integral type checks - Success
+-- Looking for OpenMP
+-- Looking for LLVM OpenMP runtime library sources
+-- Looking for LLVM OpenMP runtime library sources in /usr/src/openmp
+CMake Warning at CMakeLists.txt:33 (message):
+  Did not find LLVM OpenMP runtime library sources! Fetching from web...
+
+
+CMake Warning (dev) at /Applications/CMake.app/Contents/share/cmake-3.30/Modules/ExternalProject/shared_internal_commands.cmake:1284 (message):
+  The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+  not set.  The policy's OLD behavior will be used.  When using a URL
+  download, the timestamps of extracted files should preferably be that of
+  the time of extraction, otherwise code that depends on the extracted
+  contents might not be rebuilt if the URL changes.  The OLD behavior
+  preserves the timestamps from the archive instead, but this is usually not
+  what you want.  Update your project to the NEW behavior or specify the
+  DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+  robustness issue.
+Call Stack (most recent call first):
+  /Applications/CMake.app/Contents/share/cmake-3.30/Modules/ExternalProject.cmake:3035 (_ep_add_download_command)
+  CMakeLists.txt:34 (ExternalProject_Add)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /Applications/CMake.app/Contents/share/cmake-3.30/Modules/ExternalProject/shared_internal_commands.cmake:1284 (message):
+  The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+  not set.  The policy's OLD behavior will be used.  When using a URL
+  download, the timestamps of extracted files should preferably be that of
+  the time of extraction, otherwise code that depends on the extracted
+  contents might not be rebuilt if the URL changes.  The OLD behavior
+  preserves the timestamps from the archive instead, but this is usually not
+  what you want.  Update your project to the NEW behavior or specify the
+  DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+  robustness issue.
+Call Stack (most recent call first):
+  /Applications/CMake.app/Contents/share/cmake-3.30/Modules/ExternalProject.cmake:3035 (_ep_add_download_command)
+  CMakeLists.txt:49 (ExternalProject_Add)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp
+[  5%] Creating directories for 'llvm-cmake'
+[ 11%] Performing download step (download, verify and extract) for 'llvm-cmake'
+-- Downloading...
+   dst='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/download/cmake-17.0.6.src.tar.xz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/llvm/llvm-project/releases/download/llvmorg-17.0.6/cmake-17.0.6.src.tar.xz'
+-- [download 32% complete]
+-- [download 47% complete]
+-- [download 100% complete]
+-- verifying file...
+       file='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/download/cmake-17.0.6.src.tar.xz'
+-- Downloading... done
+-- extracting...
+     src='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/download/cmake-17.0.6.src.tar.xz'
+     dst='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/src/cmake'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 16%] No update step for 'llvm-cmake'
+[ 22%] No patch step for 'llvm-cmake'
+[ 27%] No configure step for 'llvm-cmake'
+[ 33%] No build step for 'llvm-cmake'
+[ 38%] No install step for 'llvm-cmake'
+[ 44%] No test step for 'llvm-cmake'
+[ 50%] Completed 'llvm-cmake'
+[ 50%] Built target llvm-cmake
+[ 55%] Creating directories for 'llvm-openmp'
+[ 61%] Performing download step (download, verify and extract) for 'llvm-openmp'
+-- Downloading...
+   dst='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/download/openmp-17.0.6.src.tar.xz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/llvm/llvm-project/releases/download/llvmorg-17.0.6/openmp-17.0.6.src.tar.xz'
+-- [download 0% complete]
+-- [download 1% complete]
+-- [download 2% complete]
+-- [download 3% complete]
+-- [download 4% complete]
+-- [download 5% complete]
+-- [download 6% complete]
+-- [download 9% complete]
+-- [download 10% complete]
+-- [download 11% complete]
+-- [download 13% complete]
+-- [download 14% complete]
+-- [download 15% complete]
+-- [download 16% complete]
+-- [download 18% complete]
+-- [download 19% complete]
+-- [download 20% complete]
+-- [download 22% complete]
+-- [download 23% complete]
+-- [download 24% complete]
+-- [download 25% complete]
+-- [download 27% complete]
+-- [download 28% complete]
+-- [download 29% complete]
+-- [download 31% complete]
+-- [download 32% complete]
+-- [download 33% complete]
+-- [download 36% complete]
+-- [download 37% complete]
+-- [download 38% complete]
+-- [download 40% complete]
+-- [download 41% complete]
+-- [download 42% complete]
+-- [download 43% complete]
+-- [download 45% complete]
+-- [download 46% complete]
+-- [download 47% complete]
+-- [download 49% complete]
+-- [download 59% complete]
+-- [download 60% complete]
+-- [download 61% complete]
+-- [download 63% complete]
+-- [download 64% complete]
+-- [download 67% complete]
+-- [download 68% complete]
+-- [download 82% complete]
+-- [download 96% complete]
+-- [download 100% complete]
+-- verifying file...
+       file='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/download/openmp-17.0.6.src.tar.xz'
+-- Downloading... done
+-- extracting...
+     src='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/download/openmp-17.0.6.src.tar.xz'
+     dst='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/src/openmp'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 66%] No update step for 'llvm-openmp'
+[ 72%] No patch step for 'llvm-openmp'
+[ 77%] No configure step for 'llvm-openmp'
+[ 83%] No build step for 'llvm-openmp'
+[ 88%] No install step for 'llvm-openmp'
+[ 94%] No test step for 'llvm-openmp'
+[100%] Completed 'llvm-openmp'
+[100%] Built target llvm-openmp
+-- The ASM compiler identification is AppleClang
+-- Found assembler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+-- Performing Test OPENMP_HAVE_WALL_FLAG
+-- Performing Test OPENMP_HAVE_WALL_FLAG - Success
+-- Performing Test OPENMP_HAVE_WERROR_FLAG
+-- Performing Test OPENMP_HAVE_WERROR_FLAG - Success
+-- Performing Test OPENMP_HAVE_WCAST_QUAL_FLAG
+-- Performing Test OPENMP_HAVE_WCAST_QUAL_FLAG - Success
+-- Performing Test OPENMP_HAVE_WFORMAT_PEDANTIC_FLAG
+-- Performing Test OPENMP_HAVE_WFORMAT_PEDANTIC_FLAG - Success
+-- Performing Test OPENMP_HAVE_WIMPLICIT_FALLTHROUGH_FLAG
+-- Performing Test OPENMP_HAVE_WIMPLICIT_FALLTHROUGH_FLAG - Success
+-- Performing Test OPENMP_HAVE_WSIGN_COMPARE_FLAG
+-- Performing Test OPENMP_HAVE_WSIGN_COMPARE_FLAG - Success
+-- Performing Test OPENMP_HAVE_WENUM_CONSTEXPR_CONVERSION_FLAG
+-- Performing Test OPENMP_HAVE_WENUM_CONSTEXPR_CONVERSION_FLAG - Success
+-- Performing Test OPENMP_HAVE_WEXTRA_FLAG
+-- Performing Test OPENMP_HAVE_WEXTRA_FLAG - Success
+-- Performing Test OPENMP_HAVE_WPEDANTIC_FLAG
+-- Performing Test OPENMP_HAVE_WPEDANTIC_FLAG - Success
+-- Performing Test OPENMP_HAVE_WMAYBE_UNINITIALIZED_FLAG
+-- Performing Test OPENMP_HAVE_WMAYBE_UNINITIALIZED_FLAG - Success
+-- Found Python3: /opt/miniconda3/bin/python3.12 (found version "3.12.2") found components: Interpreter
+-- Cannot find llvm-lit.
+-- Please put llvm-lit in your PATH, set OPENMP_LLVM_LIT_EXECUTABLE to its full path, or point OPENMP_LLVM_TOOLS_DIR to its directory.
+CMake Warning at test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/src/openmp/cmake/OpenMPTesting.cmake:22 (message):
+  The check targets will not be available!
+Call Stack (most recent call first):
+  test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/src/openmp/cmake/OpenMPTesting.cmake:51 (find_standalone_test_dependencies)
+  test-cross-compile/build-aarch64-apple-darwin/src/external/llvm-openmp/src/openmp/CMakeLists.txt:69 (include)
+
+
+-- Performing Test LIBOMP_HAVE_FNO_EXCEPTIONS_FLAG
+-- Performing Test LIBOMP_HAVE_FNO_EXCEPTIONS_FLAG - Success
+-- Performing Test LIBOMP_HAVE_FNO_RTTI_FLAG
+-- Performing Test LIBOMP_HAVE_FNO_RTTI_FLAG - Success
+-- Performing Test LIBOMP_HAVE_WCLASS_MEMACCESS_FLAG
+-- Performing Test LIBOMP_HAVE_WCLASS_MEMACCESS_FLAG - Success
+-- Performing Test LIBOMP_HAVE_WCOVERED_SWITCH_DEFAULT_FLAG
+-- Performing Test LIBOMP_HAVE_WCOVERED_SWITCH_DEFAULT_FLAG - Success
+-- Performing Test LIBOMP_HAVE_WFRAME_ADDRESS_FLAG
+-- Performing Test LIBOMP_HAVE_WFRAME_ADDRESS_FLAG - Success
+-- Performing Test LIBOMP_HAVE_WSTRICT_ALIASING_FLAG
+-- Performing Test LIBOMP_HAVE_WSTRICT_ALIASING_FLAG - Success
+-- Performing Test LIBOMP_HAVE_WSTRINGOP_OVERFLOW_FLAG
+-- Performing Test LIBOMP_HAVE_WSTRINGOP_OVERFLOW_FLAG - Success
+-- Performing Test LIBOMP_HAVE_WSTRINGOP_TRUNCATION_FLAG
+-- Performing Test LIBOMP_HAVE_WSTRINGOP_TRUNCATION_FLAG - Success
+-- Performing Test LIBOMP_HAVE_WSWITCH_FLAG
+-- Performing Test LIBOMP_HAVE_WSWITCH_FLAG - Success
+-- Performing Test LIBOMP_HAVE_WUNINITIALIZED_FLAG
+-- Performing Test LIBOMP_HAVE_WUNINITIALIZED_FLAG - Success
+-- Performing Test LIBOMP_HAVE_WRETURN_TYPE_C_LINKAGE_FLAG
+-- Performing Test LIBOMP_HAVE_WRETURN_TYPE_C_LINKAGE_FLAG - Success
+-- Performing Test LIBOMP_HAVE_WCAST_QUAL_FLAG
+-- Performing Test LIBOMP_HAVE_WCAST_QUAL_FLAG - Success
+-- Performing Test LIBOMP_HAVE_WINT_TO_VOID_POINTER_CAST_FLAG
+-- Performing Test LIBOMP_HAVE_WINT_TO_VOID_POINTER_CAST_FLAG - Success
+-- Performing Test LIBOMP_HAVE_MSSE2_FLAG
+-- Performing Test LIBOMP_HAVE_MSSE2_FLAG - Failed
+-- Performing Test LIBOMP_HAVE_FTLS_MODEL_FLAG
+-- Performing Test LIBOMP_HAVE_FTLS_MODEL_FLAG - Success
+-- Performing Test LIBOMP_HAVE_MMIC_FLAG
+-- Performing Test LIBOMP_HAVE_MMIC_FLAG - Failed
+-- Performing Test LIBOMP_HAVE_M32_FLAG
+-- Performing Test LIBOMP_HAVE_M32_FLAG - Success
+-- Looking for shm_open
+-- Looking for shm_open - found
+-- Looking for xmmintrin.h
+-- Looking for xmmintrin.h - not found
+-- Performing Test LIBOMP_HAVE__MM_MALLOC
+-- Performing Test LIBOMP_HAVE__MM_MALLOC - Failed
+-- Looking for aligned_alloc
+-- Looking for aligned_alloc - found
+-- Looking for posix_memalign
+-- Looking for posix_memalign - found
+-- Looking for _aligned_malloc
+-- Looking for _aligned_malloc - not found
+-- Found Perl: /usr/bin/perl (found version "5.34.1")
+-- Performing Test LIBOMP_HAVE___BUILTIN_FRAME_ADDRESS
+-- Performing Test LIBOMP_HAVE___BUILTIN_FRAME_ADDRESS - Success
+-- Performing Test LIBOMP_HAVE_WEAK_ATTRIBUTE
+-- Performing Test LIBOMP_HAVE_WEAK_ATTRIBUTE - Success
+-- Performing Test LIBOMP_HAVE_PSAPI
+-- Performing Test LIBOMP_HAVE_PSAPI - Failed
+-- ITT Notify not supported for static libraries - forcing ITT Notify off
+-- LIBOMP: Operating System     -- Darwin
+-- LIBOMP: Target Architecture  -- aarch64
+-- LIBOMP: Build Type           -- Release
+-- LIBOMP: Library Kind         -- STATIC
+-- LIBOMP: Library Type         -- normal
+-- LIBOMP: Fortran Modules      -- FALSE
+-- LIBOMP: Build                -- 20140926
+-- LIBOMP: Use Stats-gathering  -- FALSE
+-- LIBOMP: Use Debugger-support -- FALSE
+-- LIBOMP: Use ITT notify       -- FALSE
+-- LIBOMP: Use OMPT-support     -- TRUE
+-- LIBOMP: Use OMPT-optional  -- TRUE
+-- LIBOMP: Use OMPD-support     -- FALSE
+-- LIBOMP: Use Adaptive locks   -- FALSE
+-- LIBOMP: Use quad precision   -- FALSE
+-- LIBOMP: Use Hwloc library    -- FALSE
+-- LIBOMP: Use OMPX-taskgraph   -- FALSE
+-- Looking for sqrt in m
+-- Looking for sqrt in m - found
+-- Looking for __atomic_load_1
+-- Looking for __atomic_load_1 - found
+-- check-libomp does nothing.
+-- check-ompt does nothing.
+-- Found Python3: /opt/miniconda3/bin/python3.12 (found version "3.12.2") found components: Interpreter Development Development.Module Development.Embed
+-- check-openmp does nothing.
+-- Looking for OpenMP - found 'in-tree' runtime library, skipping compiler check
+-- Looking for pugixml
+-- Looking for pugixml sources
+-- Looking for pugixml sources in /usr/src/pugixml
+CMake Warning at CMakeLists.txt:33 (message):
+  Did not find pugixml sources! Fetching from web...
+
+
+CMake Warning (dev) at /Applications/CMake.app/Contents/share/cmake-3.30/Modules/ExternalProject/shared_internal_commands.cmake:1284 (message):
+  The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+  not set.  The policy's OLD behavior will be used.  When using a URL
+  download, the timestamps of extracted files should preferably be that of
+  the time of extraction, otherwise code that depends on the extracted
+  contents might not be rebuilt if the URL changes.  The OLD behavior
+  preserves the timestamps from the archive instead, but this is usually not
+  what you want.  Update your project to the NEW behavior or specify the
+  DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+  robustness issue.
+Call Stack (most recent call first):
+  /Applications/CMake.app/Contents/share/cmake-3.30/Modules/ExternalProject.cmake:3035 (_ep_add_download_command)
+  CMakeLists.txt:34 (ExternalProject_Add)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/pugixml
+[ 11%] Creating directories for 'pugixml'
+[ 22%] Performing download step (download, verify and extract) for 'pugixml'
+-- Downloading...
+   dst='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/pugixml/download/pugixml-1.9.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/zeux/pugixml/releases/download/v1.9/pugixml-1.9.tar.gz'
+-- [download 2% complete]
+-- [download 3% complete]
+-- [download 4% complete]
+-- [download 5% complete]
+-- [download 6% complete]
+-- [download 7% complete]
+-- [download 8% complete]
+-- [download 9% complete]
+-- [download 10% complete]
+-- [download 11% complete]
+-- [download 12% complete]
+-- [download 13% complete]
+-- [download 14% complete]
+-- [download 15% complete]
+-- [download 16% complete]
+-- [download 17% complete]
+-- [download 21% complete]
+-- [download 25% complete]
+-- [download 30% complete]
+-- [download 34% complete]
+-- [download 38% complete]
+-- [download 43% complete]
+-- [download 47% complete]
+-- [download 51% complete]
+-- [download 56% complete]
+-- [download 60% complete]
+-- [download 64% complete]
+-- [download 69% complete]
+-- [download 73% complete]
+-- [download 77% complete]
+-- [download 82% complete]
+-- [download 86% complete]
+-- [download 90% complete]
+-- [download 95% complete]
+-- [download 100% complete]
+-- verifying file...
+       file='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/pugixml/download/pugixml-1.9.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/pugixml/download/pugixml-1.9.tar.gz'
+     dst='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/pugixml/src'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 33%] No update step for 'pugixml'
+[ 44%] No patch step for 'pugixml'
+[ 55%] No configure step for 'pugixml'
+[ 66%] No build step for 'pugixml'
+[ 77%] No install step for 'pugixml'
+[ 88%] No test step for 'pugixml'
+[100%] Completed 'pugixml'
+[100%] Built target pugixml
+CMake Deprecation Warning at test-cross-compile/build-aarch64-apple-darwin/src/external/pugixml/src/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Looking for pugixml - found ('in-tree')
+-- JPEG is disabled, DNG Lossy JPEG support won't be available.
+-- Looking for ZLIB
+-- Looking for ZLIB sources
+-- Looking for ZLIB sources in /usr/src/zlib
+CMake Warning at CMakeLists.txt:33 (message):
+  Did not find ZLIB sources! Fetching from web...
+
+
+CMake Warning (dev) at /Applications/CMake.app/Contents/share/cmake-3.30/Modules/ExternalProject/shared_internal_commands.cmake:1284 (message):
+  The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+  not set.  The policy's OLD behavior will be used.  When using a URL
+  download, the timestamps of extracted files should preferably be that of
+  the time of extraction, otherwise code that depends on the extracted
+  contents might not be rebuilt if the URL changes.  The OLD behavior
+  preserves the timestamps from the archive instead, but this is usually not
+  what you want.  Update your project to the NEW behavior or specify the
+  DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+  robustness issue.
+Call Stack (most recent call first):
+  /Applications/CMake.app/Contents/share/cmake-3.30/Modules/ExternalProject.cmake:3035 (_ep_add_download_command)
+  CMakeLists.txt:34 (ExternalProject_Add)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/zlib
+[ 11%] Creating directories for 'zlib'
+[ 22%] Performing download step (download, verify and extract) for 'zlib'
+-- Downloading...
+   dst='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/download/zlib-1.2.11.tar.xz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://downloads.sourceforge.net/project/libpng/zlib/1.2.11/zlib-1.2.11.tar.xz'
+-- [download 100% complete]
+-- [download 3% complete]
+-- [download 7% complete]
+-- [download 10% complete]
+-- [download 14% complete]
+-- [download 17% complete]
+-- [download 21% complete]
+-- [download 24% complete]
+-- [download 28% complete]
+-- [download 31% complete]
+-- [download 35% complete]
+-- [download 38% complete]
+-- [download 42% complete]
+-- [download 45% complete]
+-- [download 49% complete]
+-- [download 52% complete]
+-- [download 56% complete]
+-- [download 59% complete]
+-- [download 63% complete]
+-- [download 66% complete]
+-- [download 70% complete]
+-- [download 73% complete]
+-- [download 77% complete]
+-- [download 80% complete]
+-- [download 84% complete]
+-- [download 87% complete]
+-- [download 94% complete]
+-- [download 98% complete]
+-- [download 100% complete]
+-- verifying file...
+       file='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/download/zlib-1.2.11.tar.xz'
+-- Downloading... done
+-- extracting...
+     src='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/download/zlib-1.2.11.tar.xz'
+     dst='/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/src'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 33%] No update step for 'zlib'
+[ 44%] No patch step for 'zlib'
+[ 55%] No configure step for 'zlib'
+[ 66%] No build step for 'zlib'
+[ 77%] No install step for 'zlib'
+[ 88%] No test step for 'zlib'
+[100%] Completed 'zlib'
+[100%] Built target zlib
+CMake Deprecation Warning at test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/src/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of off64_t
+-- Check size of off64_t - failed
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Renaming
+--     /Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/src/zconf.h
+-- to 'zconf.h.included' because this file is included with zlib
+-- but CMake generates it automatically in the build directory.
+-- Looking for ZLIB - found ('in-tree')
+-- Performing Test HAVE_CXX_THREAD_LOCAL
+-- Performing Test HAVE_CXX_THREAD_LOCAL - Success
+-- Trying to query CPU L1d cache line size
+-- Performing binary package build, using hardcoded value.
+-- Deciding that the CPU L1d cache line size is 64 bytes
+-- Trying to query CPU page size
+-- Performing binary package build, using hardcoded value.
+-- Deciding that the CPU page size is 4096 bytes
+-- Trying to query CPU large page size
+-- Performing binary package build, using hardcoded value.
+-- Deciding that the CPU large page size is 4096 bytes
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_GLOBAL_CONSTRUCTORS
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_GLOBAL_CONSTRUCTORS - Success
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_EXIT_TIME_DESTRUCTORS
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_EXIT_TIME_DESTRUCTORS - Success
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_SUGGEST_ATTRIBUTE_CONST
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_SUGGEST_ATTRIBUTE_CONST - Failed
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_SUGGEST_OVERRIDE
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_SUGGEST_OVERRIDE - Success
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_MISSING_PROTOTYPES
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_MISSING_PROTOTYPES - Success
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_C99_EXTENSIONS
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_C99_EXTENSIONS - Success
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_MISSING_VARIABLE_DECLARATIONS
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_MISSING_VARIABLE_DECLARATIONS - Success
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_USED_BUT_MARKED_UNUSED
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_USED_BUT_MARKED_UNUSED - Success
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_WEAK_VTABLES
+-- Performing Test RAWSPEED_HAVE_CXX_FLAG_WNO_WEAK_VTABLES - Success
+CMake Warning at fuzz/CMakeLists.txt:36 (message):
+  For fuzzets to function, compiler must be Clang, and build type must be
+  FUZZ.
+
+
+-- The following features have been enabled:
+
+ * OpenMP-based threading, used for parallelization of the library
+ * XML reading, used for loading of data/cameras.xml
+ * ZLIB decoding, used for DNG Deflate compression decoding
+
+-- The following OPTIONAL packages have been found:
+
+ * Python
+ * Git
+ * Python3
+
+-- The following REQUIRED packages have been found:
+
+ * Threads
+ * Perl
+
+-- The following features have been disabled:
+
+ * Lossy JPEG decoding, used for DNG Lossy JPEG compression decoding
+
+-- Configuring done (25.8s)
+CMake Warning (dev) at test-cross-compile/build-aarch64-apple-darwin/src/external/pugixml/src/CMakeLists.txt:42 (add_library):
+  Policy CMP0063 is not set: Honor visibility properties for all target
+  types.  Run "cmake --help-policy CMP0063" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  Target "pugixml" of type "STATIC_LIBRARY" has the following visibility
+  properties set for CXX:
+
+    CXX_VISIBILITY_PRESET
+    VISIBILITY_INLINES_HIDDEN
+
+  For compatibility CMake is not honoring them for this target.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/src/CMakeLists.txt:187 (add_library):
+  Policy CMP0063 is not set: Honor visibility properties for all target
+  types.  Run "cmake --help-policy CMP0063" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  Target "zlibstatic" of type "STATIC_LIBRARY" has the following visibility
+  properties set for C:
+
+    C_VISIBILITY_PRESET
+
+  For compatibility CMake is not honoring them for this target.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/src/CMakeLists.txt:233 (add_executable):
+  Policy CMP0063 is not set: Honor visibility properties for all target
+  types.  Run "cmake --help-policy CMP0063" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  Target "example" of type "EXECUTABLE" has the following visibility
+  properties set for C:
+
+    C_VISIBILITY_PRESET
+
+  For compatibility CMake is not honoring them for this target.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/src/CMakeLists.txt:237 (add_executable):
+  Policy CMP0063 is not set: Honor visibility properties for all target
+  types.  Run "cmake --help-policy CMP0063" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  Target "minigzip" of type "EXECUTABLE" has the following visibility
+  properties set for C:
+
+    C_VISIBILITY_PRESET
+
+  For compatibility CMake is not honoring them for this target.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev):
+  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  MACOSX_RPATH is not specified for the following targets:
+
+   zlib
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done (0.9s)
+-- Build files have been written to: /Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin

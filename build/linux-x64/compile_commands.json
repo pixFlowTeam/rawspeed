@@ -1,0 +1,542 @@
+[
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/external/pugixml/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/external/pugixml/src/src  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -w -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/pugixml.dir/src/pugixml.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/external/pugixml/src/src/pugixml.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/external/pugixml/src/src/pugixml.cpp",
+  "output": "src/external/pugixml/build/CMakeFiles/pugixml.dir/src/pugixml.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/common",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_common.dir/ChecksumFile.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/ChecksumFile.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/ChecksumFile.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/ChecksumFile.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/common",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_common.dir/Common.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/Common.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/Common.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/Common.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/common",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_common.dir/CpuFeatures.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/CpuFeatures.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/CpuFeatures.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/CpuFeatures.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/common",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_common.dir/DngOpcodes.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/DngOpcodes.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/DngOpcodes.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/DngOpcodes.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/common",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_common.dir/ErrorLog.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/ErrorLog.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/ErrorLog.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/ErrorLog.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/common",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_common.dir/GetNumberOfProcessorCores.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/GetNumberOfProcessorCores.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/GetNumberOfProcessorCores.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/GetNumberOfProcessorCores.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/common",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_common.dir/RawImage.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/RawImage.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/RawImage.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/RawImage.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/common",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_common.dir/RawImageDataFloat.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/RawImageDataFloat.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/RawImageDataFloat.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/RawImageDataFloat.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/common",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_common.dir/RawImageDataU16.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/RawImageDataU16.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/RawImageDataU16.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/RawImageDataU16.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/common",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_common.dir/RawspeedException.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/RawspeedException.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/RawspeedException.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/RawspeedException.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/common",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_common.dir/TableLookUp.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/TableLookUp.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/TableLookUp.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_common.dir/TableLookUp.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/common",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_get_number_of_processor_cores.dir/GetNumberOfProcessorCores.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/GetNumberOfProcessorCores.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/common/GetNumberOfProcessorCores.cpp",
+  "output": "src/librawspeed/common/CMakeFiles/rawspeed_get_number_of_processor_cores.dir/GetNumberOfProcessorCores.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/metadata",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/external/pugixml/src/src  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_metadata.dir/Camera.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/Camera.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/Camera.cpp",
+  "output": "src/librawspeed/metadata/CMakeFiles/rawspeed_metadata.dir/Camera.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/metadata",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/external/pugixml/src/src  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_metadata.dir/CameraMetaData.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/CameraMetaData.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/CameraMetaData.cpp",
+  "output": "src/librawspeed/metadata/CMakeFiles/rawspeed_metadata.dir/CameraMetaData.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/metadata",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/external/pugixml/src/src  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_metadata.dir/CameraMetadataException.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/CameraMetadataException.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/CameraMetadataException.cpp",
+  "output": "src/librawspeed/metadata/CMakeFiles/rawspeed_metadata.dir/CameraMetadataException.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/metadata",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/external/pugixml/src/src  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_metadata.dir/CameraSensorInfo.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/CameraSensorInfo.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/CameraSensorInfo.cpp",
+  "output": "src/librawspeed/metadata/CMakeFiles/rawspeed_metadata.dir/CameraSensorInfo.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/metadata",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/external/pugixml/src/src  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_metadata.dir/ColorFilterArray.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/ColorFilterArray.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/metadata/ColorFilterArray.cpp",
+  "output": "src/librawspeed/metadata/CMakeFiles/rawspeed_metadata.dir/ColorFilterArray.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/io",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_io.dir/FileIOException.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/FileIOException.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/FileIOException.cpp",
+  "output": "src/librawspeed/io/CMakeFiles/rawspeed_io.dir/FileIOException.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/io",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_io.dir/FileReader.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/FileReader.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/FileReader.cpp",
+  "output": "src/librawspeed/io/CMakeFiles/rawspeed_io.dir/FileReader.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/io",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_io.dir/FileWriter.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/FileWriter.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/FileWriter.cpp",
+  "output": "src/librawspeed/io/CMakeFiles/rawspeed_io.dir/FileWriter.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/io",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_io.dir/IOException.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/IOException.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/IOException.cpp",
+  "output": "src/librawspeed/io/CMakeFiles/rawspeed_io.dir/IOException.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/io",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_io.dir/MMapReader.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/MMapReader.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/io/MMapReader.cpp",
+  "output": "src/librawspeed/io/CMakeFiles/rawspeed_io.dir/MMapReader.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/tiff",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/tiff/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_tiff.dir/CiffEntry.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/tiff/CiffEntry.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/tiff/CiffEntry.cpp",
+  "output": "src/librawspeed/tiff/CMakeFiles/rawspeed_tiff.dir/CiffEntry.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/tiff",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/tiff/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_tiff.dir/CiffIFD.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/tiff/CiffIFD.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/tiff/CiffIFD.cpp",
+  "output": "src/librawspeed/tiff/CMakeFiles/rawspeed_tiff.dir/CiffIFD.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/tiff",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/tiff/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_tiff.dir/TiffEntry.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/tiff/TiffEntry.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/tiff/TiffEntry.cpp",
+  "output": "src/librawspeed/tiff/CMakeFiles/rawspeed_tiff.dir/TiffEntry.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/tiff",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/tiff/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_tiff.dir/TiffIFD.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/tiff/TiffIFD.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/tiff/TiffIFD.cpp",
+  "output": "src/librawspeed/tiff/CMakeFiles/rawspeed_tiff.dir/TiffIFD.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/parsers",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_parsers.dir/CiffParser.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/CiffParser.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/CiffParser.cpp",
+  "output": "src/librawspeed/parsers/CMakeFiles/rawspeed_parsers.dir/CiffParser.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/parsers",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_parsers.dir/CiffParserException.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/CiffParserException.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/CiffParserException.cpp",
+  "output": "src/librawspeed/parsers/CMakeFiles/rawspeed_parsers.dir/CiffParserException.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/parsers",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_parsers.dir/FiffParser.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/FiffParser.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/FiffParser.cpp",
+  "output": "src/librawspeed/parsers/CMakeFiles/rawspeed_parsers.dir/FiffParser.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/parsers",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_parsers.dir/FiffParserException.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/FiffParserException.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/FiffParserException.cpp",
+  "output": "src/librawspeed/parsers/CMakeFiles/rawspeed_parsers.dir/FiffParserException.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/parsers",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_parsers.dir/RawParser.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/RawParser.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/RawParser.cpp",
+  "output": "src/librawspeed/parsers/CMakeFiles/rawspeed_parsers.dir/RawParser.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/parsers",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_parsers.dir/RawParserException.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/RawParserException.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/RawParserException.cpp",
+  "output": "src/librawspeed/parsers/CMakeFiles/rawspeed_parsers.dir/RawParserException.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/parsers",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_parsers.dir/TiffParser.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/TiffParser.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/TiffParser.cpp",
+  "output": "src/librawspeed/parsers/CMakeFiles/rawspeed_parsers.dir/TiffParser.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/parsers",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_parsers.dir/TiffParserException.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/TiffParserException.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/parsers/TiffParserException.cpp",
+  "output": "src/librawspeed/parsers/CMakeFiles/rawspeed_parsers.dir/TiffParserException.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/AbstractDngDecompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/AbstractDngDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/AbstractDngDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/AbstractDngDecompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/AbstractLJpegDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/AbstractLJpegDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/AbstractLJpegDecoder.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/AbstractLJpegDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/Cr2Decompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/Cr2Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/Cr2Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/Cr2Decompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/Cr2LJpegDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/Cr2LJpegDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/Cr2LJpegDecoder.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/Cr2LJpegDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/CrwDecompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/CrwDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/CrwDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/CrwDecompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/DeflateDecompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/DeflateDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/DeflateDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/DeflateDecompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/FujiDecompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/FujiDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/FujiDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/FujiDecompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/HasselbladDecompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/HasselbladDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/HasselbladDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/HasselbladDecompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/HasselbladLJpegDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/HasselbladLJpegDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/HasselbladLJpegDecoder.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/HasselbladLJpegDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/JpegDecompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/JpegDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/JpegDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/JpegDecompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/KodakDecompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/KodakDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/KodakDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/KodakDecompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/LJpegDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/LJpegDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/LJpegDecoder.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/LJpegDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/LJpegDecompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/LJpegDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/LJpegDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/LJpegDecompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/NikonDecompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/NikonDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/NikonDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/NikonDecompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/OlympusDecompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/OlympusDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/OlympusDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/OlympusDecompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/PanasonicV4Decompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PanasonicV4Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PanasonicV4Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/PanasonicV4Decompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/PanasonicV5Decompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PanasonicV5Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PanasonicV5Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/PanasonicV5Decompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/PanasonicV6Decompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PanasonicV6Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PanasonicV6Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/PanasonicV6Decompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/PanasonicV7Decompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PanasonicV7Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PanasonicV7Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/PanasonicV7Decompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/PanasonicV8Decompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PanasonicV8Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PanasonicV8Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/PanasonicV8Decompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/PentaxDecompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PentaxDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PentaxDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/PentaxDecompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/PhaseOneDecompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PhaseOneDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/PhaseOneDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/PhaseOneDecompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/SamsungV0Decompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/SamsungV0Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/SamsungV0Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/SamsungV0Decompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/SamsungV1Decompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/SamsungV1Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/SamsungV1Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/SamsungV1Decompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/SamsungV2Decompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/SamsungV2Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/SamsungV2Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/SamsungV2Decompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/SonyArw1Decompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/SonyArw1Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/SonyArw1Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/SonyArw1Decompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/SonyArw2Decompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/SonyArw2Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/SonyArw2Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/SonyArw2Decompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/UncompressedDecompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/UncompressedDecompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/UncompressedDecompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/UncompressedDecompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decompressors",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decompressors.dir/VC5Decompressor.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/VC5Decompressor.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decompressors/VC5Decompressor.cpp",
+  "output": "src/librawspeed/decompressors/CMakeFiles/rawspeed_decompressors.dir/VC5Decompressor.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/interpolators",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/interpolators/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_interpolators.dir/Cr2sRawInterpolator.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/interpolators/Cr2sRawInterpolator.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/interpolators/Cr2sRawInterpolator.cpp",
+  "output": "src/librawspeed/interpolators/CMakeFiles/rawspeed_interpolators.dir/Cr2sRawInterpolator.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/AbstractTiffDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/AbstractTiffDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/AbstractTiffDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/AbstractTiffDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/ArwDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/ArwDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/ArwDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/ArwDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/Cr2Decoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/Cr2Decoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/Cr2Decoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/Cr2Decoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/CrwDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/CrwDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/CrwDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/CrwDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/DcrDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/DcrDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/DcrDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/DcrDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/DcsDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/DcsDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/DcsDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/DcsDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/DngDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/DngDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/DngDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/DngDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/ErfDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/ErfDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/ErfDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/ErfDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/IiqDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/IiqDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/IiqDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/IiqDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/KdcDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/KdcDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/KdcDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/KdcDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/MefDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/MefDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/MefDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/MefDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/MosDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/MosDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/MosDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/MosDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/MrwDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/MrwDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/MrwDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/MrwDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/NakedDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/NakedDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/NakedDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/NakedDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/NefDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/NefDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/NefDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/NefDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/OrfDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/OrfDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/OrfDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/OrfDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/PefDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/PefDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/PefDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/PefDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/RafDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/RafDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/RafDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/RafDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/RawDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/RawDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/RawDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/RawDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/RawDecoderException.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/RawDecoderException.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/RawDecoderException.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/RawDecoderException.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/Rw2Decoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/Rw2Decoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/Rw2Decoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/Rw2Decoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/SimpleTiffDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/SimpleTiffDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/SimpleTiffDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/SimpleTiffDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/SrwDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/SrwDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/SrwDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/SrwDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/StiDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/StiDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/StiDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/StiDecoder.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src/librawspeed/decoders",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DNDEBUG -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/build/linux-x64/src -I/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/.. -isystem /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/external  -stdlib=libc++ -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden   -mtune=generic -g3 -ggdb3 -gz -gsplit-dwarf -o CMakeFiles/rawspeed_decoders.dir/ThreefrDecoder.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/ThreefrDecoder.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/rawspeed/src/librawspeed/decoders/ThreefrDecoder.cpp",
+  "output": "src/librawspeed/decoders/CMakeFiles/rawspeed_decoders.dir/ThreefrDecoder.cpp.o"
+}
+]

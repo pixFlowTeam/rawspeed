@@ -1,0 +1,3 @@
+/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/CMakeFiles/zlib.dir
+/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/CMakeFiles/edit_cache.dir
+/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+35a901d0ff0f94d83d88f142d9382a1e CMakeFiles/pugixml
+ed8de51ad6f149063065ec2921236f37 CMakeFiles/pugixml-complete
+150e90e52635720c131b4afd3b484c0a stamp/pugixml-build
+8b8b966eaef9a3284506908cc7acf5c6 stamp/pugixml-configure
+8be704123912e29d607d0cbea15b5810 stamp/pugixml-download
+5c9f6ba1ce9fb3351614bce4d6bc6fac stamp/pugixml-install
+d23924a02a8645cd1251c3647b42d00f stamp/pugixml-mkdir
+62124fd45a5a4fcc1647121ae6e0ea41 stamp/pugixml-patch
+e5317988f1f262e1cf89373b947c6a7c stamp/pugixml-test
+1e2df46dbda70793329f7606fad468d2 stamp/pugixml-update

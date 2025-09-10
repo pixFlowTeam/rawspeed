@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc librawspeed_get_number_of_processor_cores.a CMakeFiles/rawspeed_get_number_of_processor_cores.dir/GetNumberOfProcessorCores.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib librawspeed_get_number_of_processor_cores.a

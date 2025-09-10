@@ -1,0 +1,1 @@
+/usr/bin/clang  -arch arm64 -DHAVE_UNISTD_H -arch arm64 -DHAVE_UNISTD_H -w  -O3 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl,-headerpad_max_install_names -arch arm64  CMakeFiles/minigzip.dir/test/minigzip.o -o minigzip  libz.1.2.11.dylib

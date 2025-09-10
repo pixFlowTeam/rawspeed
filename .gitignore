@@ -1,5 +1,5 @@
 # cmake out-of-source build tree
-build*/
+# build*/ 先忽略
 
 # tmp files
 *~

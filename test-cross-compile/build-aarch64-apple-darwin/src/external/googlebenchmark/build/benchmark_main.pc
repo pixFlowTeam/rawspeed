@@ -1,0 +1,7 @@
+libdir=/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/install/lib
+
+Name: benchmark
+Description: Google microbenchmark framework (with main() function)
+Version: 1.9.3
+Requires: benchmark
+Libs: -L${libdir} -lbenchmark_main

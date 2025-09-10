@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/CMakeFiles/zlib"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/CMakeFiles/zlib.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/CMakeFiles/zlib-complete.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/stamp/zlib-build.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/stamp/zlib-configure.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/stamp/zlib-download.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/stamp/zlib-install.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/stamp/zlib-mkdir.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/stamp/zlib-patch.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/stamp/zlib-test.rule"
+		},
+		{
+			"file" : "/Users/fuguoqiang/Desktop/bridge/rawspeed/test-cross-compile/build-aarch64-apple-darwin/src/external/zlib/stamp/zlib-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"zlib"
+		],
+		"name" : "zlib"
+	}
+}

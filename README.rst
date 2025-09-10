@@ -46,6 +46,37 @@ RawSpeed…
 
 .. _LGPL v2: https://choosealicense.com/licenses/lgpl-2.1/
 
+Cross-Platform Build Support
+--------------------------------------------------------------------------------
+
+RawSpeed now supports cross-platform compilation for multiple architectures:
+
+- **Windows x64** (x86_64-w64-mingw32)
+- **macOS ARM64** (aarch64-apple-darwin) 
+- **macOS x64** (x86_64-apple-darwin)
+- **Linux x64** (native) - Ubuntu, CentOS, RHEL, Debian, Fedora
+
+Quick Start:
+::
+
+    # Build all platforms
+    ./scripts/build-cross-platform.sh all
+    
+    # Build specific platform
+    ./scripts/build-cross-platform.sh windows
+    ./scripts/build-cross-platform.sh macos
+    ./scripts/build-cross-platform.sh linux
+    
+    # Check build status
+    ./scripts/build-cross-platform.sh status
+
+For detailed information, see:
+
+- `CROSS_COMPILE.md <CROSS_COMPILE.md>`_ - Complete cross-platform build guide
+- `Linux Support Guide <docs/LINUX_SUPPORT.md>`_ - Detailed Linux support information  
+- `Build Status <docs/BUILD_STATUS.md>`_ - Current build status and supported platforms
+- `Scripts Documentation <scripts/README.md>`_ - Build scripts usage guide
+
 RawSpeed does **NOT**…
 
 - read metadata information, beside whitebalance information.

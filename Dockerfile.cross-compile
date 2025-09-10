@@ -1,0 +1,86 @@
+# RawSpeed 交叉编译 Docker 镜像
+# 支持多平台交叉编译
+
+FROM ubuntu:22.04
+
+# 设置环境变量
+ENV DEBIAN_FRONTEND=noninteractive
+ENV TZ=UTC
+
+# 安装基础依赖
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    cmake \
+    git \
+    wget \
+    curl \
+    pkg-config \
+    ninja-build \
+    && rm -rf /var/lib/apt/lists/*
+
+# 安装 MinGW-w64 用于 Windows 交叉编译
+RUN apt-get update && apt-get install -y \
+    gcc-mingw-w64-x86-64 \
+    g++-mingw-w64-x86-64 \
+    && rm -rf /var/lib/apt/lists/*
+
+# 安装 macOS 交叉编译工具 (osxcross)
+# 注意：这需要手动下载和安装 osxcross，因为 Apple 的许可证限制
+# RUN wget https://github.com/tpoechtrager/osxcross/releases/download/v0.0.1/osxcross-0.0.1.tar.gz \
+#     && tar -xzf osxcross-0.0.1.tar.gz \
+#     && rm osxcross-0.0.1.tar.gz
+
+# 设置工作目录
+WORKDIR /workspace
+
+# 复制项目文件
+COPY . .
+
+# 创建构建脚本
+RUN cat > /usr/local/bin/build-all.sh << 'EOF'
+#!/bin/bash
+set -e
+
+echo "开始 RawSpeed 交叉编译..."
+
+# 创建输出目录
+mkdir -p /workspace/release
+
+# 编译 Windows x64
+echo "编译 Windows x64..."
+mkdir -p /workspace/build-windows-x64
+cd /workspace/build-windows-x64
+cmake \
+    -DCMAKE_TOOLCHAIN_FILE=/workspace/cmake/toolchains/x86_64-w64-mingw32.cmake \
+    -C /workspace/cmake/standalone-release.cmake \
+    /workspace
+make -j$(nproc)
+
+# 复制 Windows 文件
+mkdir -p /workspace/release/windows-x64
+cp -r lib/* /workspace/release/windows-x64/ 2>/dev/null || true
+cp -r bin/* /workspace/release/windows-x64/ 2>/dev/null || true
+
+# 编译 Linux x64
+echo "编译 Linux x64..."
+mkdir -p /workspace/build-linux-x64
+cd /workspace/build-linux-x64
+cmake \
+    -C /workspace/cmake/standalone-release.cmake \
+    /workspace
+make -j$(nproc)
+
+# 复制 Linux 文件
+mkdir -p /workspace/release/linux-x64
+cp -r lib/* /workspace/release/linux-x64/ 2>/dev/null || true
+cp -r bin/* /workspace/release/linux-x64/ 2>/dev/null || true
+
+echo "编译完成！"
+echo "输出目录: /workspace/release"
+ls -la /workspace/release/
+EOF
+
+RUN chmod +x /usr/local/bin/build-all.sh
+
+# 设置默认命令
+CMD ["/usr/local/bin/build-all.sh"]

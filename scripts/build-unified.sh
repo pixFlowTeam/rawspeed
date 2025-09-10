@@ -287,7 +287,12 @@ build_platform() {
     print_info "运行 CMake 配置..."
     if ! cmake "${CMAKE_ARGS[@]}" "$PROJECT_ROOT"; then
         print_error "CMake 配置失败: $platform"
-        return 1
+        print_info "尝试清理并重新配置..."
+        rm -rf "$BUILD_DIR"/*
+        if ! cmake "${CMAKE_ARGS[@]}" "$PROJECT_ROOT"; then
+            print_error "重新配置仍然失败: $platform"
+            return 1
+        fi
     fi
     
     # 编译
